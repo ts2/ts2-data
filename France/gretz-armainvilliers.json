@@ -6,7 +6,7 @@
     }, 
     "options": {
         "currentScore": 0, 
-        "currentTime": "04:28:00", 
+        "currentTime": "04:45:00", 
         "defaultDelayAtEntry": "[(-60,0,50),(0,60,50)]", 
         "defaultMaxSpeed": "38.89", 
         "defaultMinimumStopTime": "[(45,75,70),(75,90,30)]", 
@@ -378,6 +378,17 @@
             "initialState": 0, 
             "routeNum": 165
         }, 
+        "166": {
+            "__type__": "Route", 
+            "beginSignal": 101, 
+            "directions": {
+                "110": 0, 
+                "292": 0
+            }, 
+            "endSignal": 253, 
+            "initialState": 0, 
+            "routeNum": 166
+        }, 
         "17": {
             "__type__": "Route", 
             "beginSignal": 193, 
@@ -389,6 +400,77 @@
             "endSignal": 37, 
             "initialState": 0, 
             "routeNum": 17
+        }, 
+        "170": {
+            "__type__": "Route", 
+            "beginSignal": 319, 
+            "directions": {
+                "292": 0, 
+                "295": 0, 
+                "297": 0
+            }, 
+            "endSignal": 117, 
+            "initialState": 0, 
+            "routeNum": 170
+        }, 
+        "171": {
+            "__type__": "Route", 
+            "beginSignal": 91, 
+            "directions": {
+                "105": 0, 
+                "108": 1, 
+                "110": 1, 
+                "292": 0
+            }, 
+            "endSignal": 253, 
+            "initialState": 0, 
+            "routeNum": 171
+        }, 
+        "174": {
+            "__type__": "Route", 
+            "beginSignal": 102, 
+            "directions": {
+                "105": 1, 
+                "108": 1, 
+                "110": 1, 
+                "292": 0
+            }, 
+            "endSignal": 253, 
+            "initialState": 0, 
+            "routeNum": 174
+        }, 
+        "175": {
+            "__type__": "Route", 
+            "beginSignal": 253, 
+            "directions": {
+                "295": 0, 
+                "297": 0
+            }, 
+            "endSignal": 317, 
+            "initialState": 0, 
+            "routeNum": 175
+        }, 
+        "176": {
+            "__type__": "Route", 
+            "beginSignal": 317, 
+            "directions": {
+                "320": 0
+            }, 
+            "endSignal": 327, 
+            "initialState": 0, 
+            "routeNum": 176
+        }, 
+        "178": {
+            "__type__": "Route", 
+            "beginSignal": 309, 
+            "directions": {
+                "292": 0, 
+                "295": 1, 
+                "300": 1
+            }, 
+            "endSignal": 117, 
+            "initialState": 0, 
+            "routeNum": 178
         }, 
         "18": {
             "__type__": "Route", 
@@ -1005,40 +1087,6 @@
             "initialState": 0, 
             "routeNum": 93
         }, 
-        "95": {
-            "__type__": "Route", 
-            "beginSignal": 101, 
-            "directions": {
-                "110": 0
-            }, 
-            "endSignal": 253, 
-            "initialState": 0, 
-            "routeNum": 95
-        }, 
-        "96": {
-            "__type__": "Route", 
-            "beginSignal": 91, 
-            "directions": {
-                "105": 0, 
-                "108": 1, 
-                "110": 1
-            }, 
-            "endSignal": 253, 
-            "initialState": 0, 
-            "routeNum": 96
-        }, 
-        "97": {
-            "__type__": "Route", 
-            "beginSignal": 102, 
-            "directions": {
-                "105": 1, 
-                "108": 1, 
-                "110": 1
-            }, 
-            "endSignal": 253, 
-            "initialState": 0, 
-            "routeNum": 97
-        }, 
         "98": {
             "__type__": "Route", 
             "beginSignal": 91, 
@@ -1065,7 +1113,7 @@
     "services": {
         "HAVA118400": {
             "__type__": "Service", 
-            "autoReverse": 0, 
+            "autoReverse": "0", 
             "description": "Tournan - Haussmann St Lazare : Toutes les gares jusqu'\u00e0 Villiers sur Marne Plessis Tr\u00e9vise ainsi que Val de Fontenay, Noisy-le-Sec et Magenta", 
             "lines": [
                 {
@@ -1074,7 +1122,7 @@
                     "placeCode": "TOUR", 
                     "scheduledArrivalTime": "", 
                     "scheduledDepartureTime": "04:52:00", 
-                    "trackCode": "A"
+                    "trackCode": "1"
                 }, 
                 {
                     "__type__": "ServiceLine", 
@@ -1107,7 +1155,7 @@
         }, 
         "HAVA118412": {
             "__type__": "Service", 
-            "autoReverse": false, 
+            "autoReverse": "0", 
             "description": "Tournan - Haussmann St Lazare : Toutes les gares jusqu'\u00e0 Villiers sur Marne Plessis Tr\u00e9vise ainsi que Val de Fontenay, Noisy-le-Sec et Magenta", 
             "lines": [
                 {
@@ -1149,7 +1197,7 @@
         }, 
         "HIVA118102": {
             "__type__": "Service", 
-            "autoReverse": 0, 
+            "autoReverse": "0", 
             "description": "Tournan - Haussmann St Lazare : Toutes les gares jusqu'\u00e0 Villiers sur Marne Plessis Tr\u00e9vise ainsi que Val de Fontenay et Magenta", 
             "lines": [
                 {
@@ -1158,7 +1206,7 @@
                     "placeCode": "TOUR", 
                     "scheduledArrivalTime": "", 
                     "scheduledDepartureTime": "05:53:00", 
-                    "trackCode": "A"
+                    "trackCode": "2"
                 }, 
                 {
                     "__type__": "ServiceLine", 
@@ -1189,9 +1237,177 @@
             "plannedTrainType": "Z22500-UM", 
             "serviceCode": "HIVA118102"
         }, 
+        "HIVA118106": {
+            "__type__": "Service", 
+            "autoReverse": "0", 
+            "description": "Tournan - Haussmann St Lazare : Toutes les gares jusqu'\u00e0 Villiers sur Marne Plessis Tr\u00e9vise ainsi que Val de Fontenay et Magenta", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "TOUR", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "06:08:00", 
+                    "trackCode": "A"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "06:13:00", 
+                    "scheduledDepartureTime": "06:14:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "OZOIR", 
+                    "scheduledArrivalTime": "06:16:00", 
+                    "scheduledDepartureTime": "06:17:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "06:20:00", 
+                    "scheduledDepartureTime": "06:20:00", 
+                    "trackCode": "2"
+                }
+            ], 
+            "nextServiceCode": "", 
+            "plannedTrainType": "Z22500-UM", 
+            "serviceCode": "HIVA118106"
+        }, 
+        "HIVA118110": {
+            "__type__": "Service", 
+            "autoReverse": "0", 
+            "description": "Tournan - Haussmann St Lazare : Toutes les gares jusqu'\u00e0 Villiers sur Marne Plessis Tr\u00e9vise ainsi que Val de Fontenay et Magenta", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "TOUR", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "06:23:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "06:28:00", 
+                    "scheduledDepartureTime": "06:29:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "OZOIR", 
+                    "scheduledArrivalTime": "06:31:00", 
+                    "scheduledDepartureTime": "06:32:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "06:35:00", 
+                    "scheduledDepartureTime": "06:35:00", 
+                    "trackCode": "2"
+                }
+            ], 
+            "nextServiceCode": "", 
+            "plannedTrainType": "Z22500-UM", 
+            "serviceCode": "HIVA118110"
+        }, 
+        "HIVA118114": {
+            "__type__": "Service", 
+            "autoReverse": "0", 
+            "description": "Tournan - Haussmann St Lazare : Toutes les gares jusqu'\u00e0 Villiers sur Marne Plessis Tr\u00e9vise ainsi que Val de Fontenay et Magenta", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "TOUR", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "06:38:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "06:43:00", 
+                    "scheduledDepartureTime": "06:44:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "OZOIR", 
+                    "scheduledArrivalTime": "06:46:00", 
+                    "scheduledDepartureTime": "06:47:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "06:50:00", 
+                    "scheduledDepartureTime": "06:50:00", 
+                    "trackCode": "2"
+                }
+            ], 
+            "nextServiceCode": "", 
+            "plannedTrainType": "Z22500-UM", 
+            "serviceCode": "HIVA118114"
+        }, 
+        "HIVA118118": {
+            "__type__": "Service", 
+            "autoReverse": "0", 
+            "description": "Tournan - Haussmann St Lazare : Toutes les gares jusqu'\u00e0 Villiers sur Marne Plessis Tr\u00e9vise ainsi que Val de Fontenay et Magenta", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "TOUR", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "06:53:00", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "06:58:00", 
+                    "scheduledDepartureTime": "06:59:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "OZOIR", 
+                    "scheduledArrivalTime": "07:01:00", 
+                    "scheduledDepartureTime": "07:02:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "07:05:00", 
+                    "scheduledDepartureTime": "07:05:00", 
+                    "trackCode": "2"
+                }
+            ], 
+            "nextServiceCode": "", 
+            "plannedTrainType": "Z22500-UM", 
+            "serviceCode": "HIVA118118"
+        }, 
         "HIVA118122": {
             "__type__": "Service", 
-            "autoReverse": 0, 
+            "autoReverse": "0", 
             "description": "Tournan - Haussmann St Lazare : Toutes les gares jusqu'\u00e0 Villiers sur Marne Plessis Tr\u00e9vise puis Val de Fontenay et Magenta", 
             "lines": [
                 {
@@ -1231,9 +1447,51 @@
             "plannedTrainType": "Z22500-UM", 
             "serviceCode": "HIVA118122"
         }, 
+        "HIVA118126": {
+            "__type__": "Service", 
+            "autoReverse": "0", 
+            "description": "Tournan - Haussmann St Lazare : Toutes les gares jusqu'\u00e0 Villiers sur Marne Plessis Tr\u00e9vise ainsi que Val de Fontenay et Magenta", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "TOUR", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "07:23:00", 
+                    "trackCode": "A"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "07:28:00", 
+                    "scheduledDepartureTime": "07:29:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "OZOIR", 
+                    "scheduledArrivalTime": "07:31:00", 
+                    "scheduledDepartureTime": "07:32:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "07:35:00", 
+                    "scheduledDepartureTime": "07:35:00", 
+                    "trackCode": "2"
+                }
+            ], 
+            "nextServiceCode": "", 
+            "plannedTrainType": "Z22500-UM", 
+            "serviceCode": "HIVA118126"
+        }, 
         "HIVA118130": {
             "__type__": "Service", 
-            "autoReverse": false, 
+            "autoReverse": "False", 
             "description": "Tournan - Haussmann St Lazare : Toutes les gares jusqu'\u00e0 Villiers sur Marne Plessis Tr\u00e9vise ainsi que Val de Fontenay et Magenta", 
             "lines": [
                 {
@@ -1242,7 +1500,7 @@
                     "placeCode": "TOUR", 
                     "scheduledArrivalTime": "", 
                     "scheduledDepartureTime": "07:38:00", 
-                    "trackCode": "A"
+                    "trackCode": "2"
                 }, 
                 {
                     "__type__": "ServiceLine", 
@@ -1275,14 +1533,14 @@
         }, 
         "PITU117320": {
             "__type__": "Service", 
-            "autoReverse": 0, 
+            "autoReverse": "0", 
             "description": "Coulommiers - Paris Est : Toutes les gares jusqu'\u00e0 Tournan et puis sans arr\u00eat jusqu'\u00e0 Paris Est", 
             "lines": [
                 {
                     "__type__": "ServiceLine", 
                     "mustStop": 0, 
                     "placeCode": "MARL", 
-                    "scheduledArrivalTime": "05:58:00", 
+                    "scheduledArrivalTime": "05:56:00", 
                     "scheduledDepartureTime": "", 
                     "trackCode": "1"
                 }, 
@@ -1315,9 +1573,135 @@
             "plannedTrainType": "Z50000", 
             "serviceCode": "PITU117320"
         }, 
+        "PITU117322": {
+            "__type__": "Service", 
+            "autoReverse": "0", 
+            "description": "Coulommiers - Paris Est : Toutes les gares jusqu'\u00e0 Tournan et puis sans arr\u00eat jusqu'\u00e0 Paris Est", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "MARL", 
+                    "scheduledArrivalTime": "06:41:00", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "TOUR", 
+                    "scheduledArrivalTime": "06:44:00", 
+                    "scheduledDepartureTime": "06:45:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "06:49:00", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "06:54:00", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }
+            ], 
+            "nextServiceCode": "", 
+            "plannedTrainType": "Z50000", 
+            "serviceCode": "PITU117322"
+        }, 
+        "PITU117326": {
+            "__type__": "Service", 
+            "autoReverse": "0", 
+            "description": "Coulommiers - Paris Est : Toutes les gares jusqu'\u00e0 Tournan et puis sans arr\u00eat jusqu'\u00e0 Paris Est", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "MARL", 
+                    "scheduledArrivalTime": "07:11:00", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "TOUR", 
+                    "scheduledArrivalTime": "07:14:00", 
+                    "scheduledDepartureTime": "07:15:00", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "07:19:00", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "07:24:00", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }
+            ], 
+            "nextServiceCode": "", 
+            "plannedTrainType": "Z50000-UM", 
+            "serviceCode": "PITU117326"
+        }, 
+        "TAVA118401": {
+            "__type__": "Service", 
+            "autoReverse": "True", 
+            "description": "Haussmann St Lazare - Tournan : Magenta, Noisy-le-Sec, Val de Fontenay puis toutes les gares de Villiers sur Marne Plessis Tr\u00e9vise \u00e0 Tournan", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 0, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "06:25:00", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "OZOIR", 
+                    "scheduledArrivalTime": "06:27:00", 
+                    "scheduledDepartureTime": "06:28:00", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "06:32:00", 
+                    "scheduledDepartureTime": "06:33:00", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "TOUR", 
+                    "scheduledArrivalTime": "06:38:00", 
+                    "scheduledDepartureTime": "06:38:00", 
+                    "trackCode": "1"
+                }
+            ], 
+            "nextServiceCode": "HIVA118118", 
+            "plannedTrainType": "Z22500-UM", 
+            "serviceCode": "TAVA118401"
+        }, 
         "TIVA118103": {
             "__type__": "Service", 
-            "autoReverse": true, 
+            "autoReverse": "True", 
             "description": "Haussmann St Lazare - Tournan : Magenta, Val de Fontenay puis toutes les gares de Villiers sur Marne Plessis Tr\u00e9vise \u00e0 Tournan", 
             "lines": [
                 {
@@ -1359,7 +1743,7 @@
         }, 
         "TIVA118109": {
             "__type__": "Service", 
-            "autoReverse": true, 
+            "autoReverse": "True", 
             "description": "Haussmann St Lazare - Tournan : Magenta, Val de Fontenay puis toutes les gares de Villiers sur Marne Plessis Tr\u00e9vise \u00e0 Tournan", 
             "lines": [
                 {
@@ -1392,144 +1776,188 @@
                     "placeCode": "TOUR", 
                     "scheduledArrivalTime": "07:31:00", 
                     "scheduledDepartureTime": "07:31:00", 
-                    "trackCode": "A"
+                    "trackCode": "2"
                 }
             ], 
             "nextServiceCode": "HIVA118130", 
             "plannedTrainType": "Z22500-UM", 
             "serviceCode": "TIVA118109"
         }, 
-        "W118102a": {
+        "W118106a": {
             "__type__": "Service", 
-            "autoReverse": true, 
+            "autoReverse": "True", 
             "description": "Garage Gretz - Gretz Voie 4", 
             "lines": [
                 {
                     "__type__": "ServiceLine", 
                     "mustStop": 1, 
                     "placeCode": "GRETZ", 
-                    "scheduledArrivalTime": "05:32:00", 
-                    "scheduledDepartureTime": "05:32:00", 
+                    "scheduledArrivalTime": "05:47:00", 
+                    "scheduledDepartureTime": "05:47:00", 
                     "trackCode": "V4"
                 }
             ], 
-            "nextServiceCode": "W118102b", 
+            "nextServiceCode": "W118106b", 
             "plannedTrainType": "Z22500-UM", 
-            "serviceCode": "W118102a"
+            "serviceCode": "W118106a"
         }, 
-        "W118102b": {
+        "W118106b": {
             "__type__": "Service", 
-            "autoReverse": true, 
+            "autoReverse": "True", 
             "description": "Gretz Voie 4 - Tournan", 
             "lines": [
                 {
                     "__type__": "ServiceLine", 
                     "mustStop": 1, 
                     "placeCode": "GRETZ", 
-                    "scheduledArrivalTime": "05:40:00", 
-                    "scheduledDepartureTime": "05:40:00", 
+                    "scheduledArrivalTime": "05:55:00", 
+                    "scheduledDepartureTime": "05:55:00", 
                     "trackCode": "V4"
                 }, 
                 {
                     "__type__": "ServiceLine", 
                     "mustStop": 1, 
                     "placeCode": "TOUR", 
-                    "scheduledArrivalTime": "05:45:00", 
-                    "scheduledDepartureTime": "05:45:00", 
+                    "scheduledArrivalTime": "06:00:00", 
+                    "scheduledDepartureTime": "06:00:00", 
                     "trackCode": "A"
                 }
             ], 
-            "nextServiceCode": "HIVA118102", 
+            "nextServiceCode": "HIVA118106", 
             "plannedTrainType": "Z22500-UM", 
-            "serviceCode": "W118102b"
+            "serviceCode": "W118106b"
         }, 
-        "W118400a": {
+        "W118110a": {
             "__type__": "Service", 
-            "autoReverse": true, 
+            "autoReverse": "True", 
             "description": "Garage Gretz - Gretz Voie 4", 
             "lines": [
                 {
                     "__type__": "ServiceLine", 
                     "mustStop": 1, 
                     "placeCode": "GRETZ", 
-                    "scheduledArrivalTime": "04:32:00", 
-                    "scheduledDepartureTime": "04:32:00", 
+                    "scheduledArrivalTime": "06:02:00", 
+                    "scheduledDepartureTime": "06:02:00", 
                     "trackCode": "V4"
                 }
             ], 
-            "nextServiceCode": "W118400b", 
+            "nextServiceCode": "W118110b", 
             "plannedTrainType": "Z22500-UM", 
-            "serviceCode": "W118400a"
+            "serviceCode": "W118110a"
         }, 
-        "W118400b": {
+        "W118110b": {
             "__type__": "Service", 
-            "autoReverse": true, 
+            "autoReverse": "True", 
             "description": "Gretz Voie 4 - Tournan", 
             "lines": [
                 {
                     "__type__": "ServiceLine", 
                     "mustStop": 1, 
                     "placeCode": "GRETZ", 
-                    "scheduledArrivalTime": "", 
-                    "scheduledDepartureTime": "04:40:00", 
+                    "scheduledArrivalTime": "06:10:00", 
+                    "scheduledDepartureTime": "06:10:00", 
                     "trackCode": "V4"
                 }, 
                 {
                     "__type__": "ServiceLine", 
                     "mustStop": 1, 
                     "placeCode": "TOUR", 
-                    "scheduledArrivalTime": "04:45:00", 
-                    "scheduledDepartureTime": "04:45:00", 
-                    "trackCode": "A"
+                    "scheduledArrivalTime": "06:15:00", 
+                    "scheduledDepartureTime": "06:15:00", 
+                    "trackCode": "2"
                 }
             ], 
-            "nextServiceCode": "HAVA118400", 
+            "nextServiceCode": "HIVA118110", 
             "plannedTrainType": "Z22500-UM", 
-            "serviceCode": "W118400b"
+            "serviceCode": "W118110b"
         }, 
-        "W118412a": {
+        "W118114a": {
             "__type__": "Service", 
-            "autoReverse": true, 
+            "autoReverse": "True", 
             "description": "Garage Gretz - Gretz Voie 4", 
             "lines": [
                 {
                     "__type__": "ServiceLine", 
                     "mustStop": 1, 
                     "placeCode": "GRETZ", 
-                    "scheduledArrivalTime": "05:02:00", 
-                    "scheduledDepartureTime": "05:02:00", 
+                    "scheduledArrivalTime": "06:17:00", 
+                    "scheduledDepartureTime": "06:17:00", 
                     "trackCode": "V4"
                 }
             ], 
-            "nextServiceCode": "W118412b", 
+            "nextServiceCode": "W118114b", 
             "plannedTrainType": "Z22500-UM", 
-            "serviceCode": "W118412a"
+            "serviceCode": "W118114a"
         }, 
-        "W118412b": {
+        "W118114b": {
             "__type__": "Service", 
-            "autoReverse": true, 
+            "autoReverse": "True", 
             "description": "Gretz Voie 4 - Tournan", 
             "lines": [
                 {
                     "__type__": "ServiceLine", 
                     "mustStop": 1, 
                     "placeCode": "GRETZ", 
-                    "scheduledArrivalTime": "", 
-                    "scheduledDepartureTime": "05:10:00", 
+                    "scheduledArrivalTime": "06:25:00", 
+                    "scheduledDepartureTime": "06:25:00", 
                     "trackCode": "V4"
                 }, 
                 {
                     "__type__": "ServiceLine", 
                     "mustStop": 1, 
                     "placeCode": "TOUR", 
-                    "scheduledArrivalTime": "05:15:00", 
-                    "scheduledDepartureTime": "05:15:00", 
+                    "scheduledArrivalTime": "06:30:00", 
+                    "scheduledDepartureTime": "06:30:00", 
+                    "trackCode": "2"
+                }
+            ], 
+            "nextServiceCode": "HIVA118114", 
+            "plannedTrainType": "Z22500-UM", 
+            "serviceCode": "W118114b"
+        }, 
+        "W118126a": {
+            "__type__": "Service", 
+            "autoReverse": "True", 
+            "description": "Garage Gretz - Gretz Voie 4", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "07:02:00", 
+                    "scheduledDepartureTime": "07:02:00", 
+                    "trackCode": "V4"
+                }
+            ], 
+            "nextServiceCode": "W118126b", 
+            "plannedTrainType": "Z22500-UM", 
+            "serviceCode": "W118126a"
+        }, 
+        "W118126b": {
+            "__type__": "Service", 
+            "autoReverse": "True", 
+            "description": "Gretz Voie 4 - Tournan", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "07:10:00", 
+                    "scheduledDepartureTime": "07:10:00", 
+                    "trackCode": "V4"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": 1, 
+                    "placeCode": "TOUR", 
+                    "scheduledArrivalTime": "07:15:00", 
+                    "scheduledDepartureTime": "07:15:00", 
                     "trackCode": "A"
                 }
             ], 
-            "nextServiceCode": "HAVA118412", 
+            "nextServiceCode": "HIVA118126", 
             "plannedTrainType": "Z22500-UM", 
-            "serviceCode": "W118412b"
+            "serviceCode": "W118126b"
         }
     }, 
     "trackItems": {
@@ -1877,7 +2305,7 @@
             "nextTiId": 116, 
             "previousTiId": 118, 
             "reverse": 1, 
-            "routesSetParams": "{'FR_BAL_RR30': [142, 143], 'FR_BAL_ARR30': [142, 143], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [142, 143], 'FR_BAL_RR30': [142, 143], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 117, 
             "trainNotPresentParams": "{}", 
@@ -1892,14 +2320,14 @@
             "conflictTiId": null, 
             "maxSpeed": 33.33, 
             "name": "118", 
-            "nextTiId": 253, 
+            "nextTiId": 292, 
             "placeCode": null, 
             "previousTiId": 117, 
-            "realLength": 500.0, 
+            "realLength": 750.0, 
             "tiId": 118, 
             "trackCode": "", 
             "x": 1470.0, 
-            "xf": 1555.0, 
+            "xf": 1650.0, 
             "y": -55.0, 
             "yf": -55.0
         }, 
@@ -1911,7 +2339,7 @@
             "nextTiId": null, 
             "previousTiId": 254, 
             "tiId": 119, 
-            "x": 1605.0, 
+            "x": 2270.0, 
             "y": -55.0
         }, 
         "12": {
@@ -2258,7 +2686,7 @@
             "nextTiId": 143, 
             "previousTiId": 18, 
             "reverse": 1, 
-            "routesSetParams": "{'FR_BAL_RR30': [], 'FR_BAL_ARR30': [], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [], 'FR_BAL_RR30': [], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 138, 
             "trainNotPresentParams": "{}", 
@@ -2828,7 +3256,7 @@
             "nextTiId": 169, 
             "previousTiId": 171, 
             "reverse": 0, 
-            "routesSetParams": "{'FR_BAL_RR30': [160, 161, 162, 163], 'FR_BAL_ARR30': [160, 161, 162, 163], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [160, 161, 162, 163], 'FR_BAL_RR30': [160, 161, 162, 163], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 170, 
             "trainNotPresentParams": "{}", 
@@ -2878,7 +3306,7 @@
             "nextTiId": 172, 
             "previousTiId": 174, 
             "reverse": 0, 
-            "routesSetParams": "{'FR_BAL_RR30': [22, 165], 'FR_BAL_ARR30': [22, 165], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [22, 165], 'FR_BAL_RR30': [22, 165], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 173, 
             "trainNotPresentParams": "{}", 
@@ -3552,7 +3980,7 @@
             "routesSetParams": "{}", 
             "signalType": "FR_BAL_SEMAPHORE_TP", 
             "tiId": 226, 
-            "trainNotPresentParams": "{'FR_BAL_S': [], 'FR_BAL_VL': [], 'FR_BAL_A': []}", 
+            "trainNotPresentParams": "{'FR_BAL_VL': [], 'FR_BAL_A': [], 'FR_BAL_S': []}", 
             "trainPresentParams": "{}", 
             "x": 715.0, 
             "xn": 670.0, 
@@ -3635,7 +4063,7 @@
             "nextTiId": 240, 
             "previousTiId": 241, 
             "reverse": 0, 
-            "routesSetParams": "{'FR_BAL_RR30': [], 'FR_BAL_ARR30': [], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [], 'FR_BAL_RR30': [], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 230, 
             "trainNotPresentParams": "{}", 
@@ -4033,16 +4461,16 @@
             "conflictTiId": null, 
             "maxSpeed": 38.89, 
             "name": "517", 
-            "nextTiId": 254, 
-            "previousTiId": 118, 
+            "nextTiId": 294, 
+            "previousTiId": 293, 
             "reverse": 0, 
-            "routesSetParams": "{}", 
-            "signalType": "FR_BAL_SEMAPHORE_TP", 
+            "routesSetParams": "{'FR_BAL_ARR30': [], 'FR_BAL_RR30': [], 'FR_M': []}", 
+            "signalType": "FR_BAL_RR30", 
             "tiId": 253, 
-            "trainNotPresentParams": "{'FR_BAL_S': [], 'FR_BAL_VL': [], 'FR_BAL_A': []}", 
-            "trainPresentParams": "{}", 
-            "x": 1555.0, 
-            "xn": 1510.0, 
+            "trainNotPresentParams": "{}", 
+            "trainPresentParams": "{'FR_M': []}", 
+            "x": 1720.0, 
+            "xn": 1675.0, 
             "y": -55.0, 
             "yn": -50.0
         }, 
@@ -4053,12 +4481,12 @@
             "name": "254", 
             "nextTiId": 119, 
             "placeCode": "MARL", 
-            "previousTiId": 253, 
-            "realLength": 10.0, 
+            "previousTiId": 326, 
+            "realLength": 300.0, 
             "tiId": 254, 
             "trackCode": "1", 
-            "x": 1565.0, 
-            "xf": 1605.0, 
+            "x": 2210.0, 
+            "xf": 2270.0, 
             "y": -55.0, 
             "yf": -55.0
         }, 
@@ -4437,8 +4865,41 @@
             "placeCode": "MARL", 
             "previousTiId": null, 
             "tiId": 276, 
-            "x": 1620.0, 
-            "y": -65.0
+            "x": 2280.0, 
+            "y": -60.0
+        }, 
+        "277": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "1", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 277, 
+            "x": 150.0, 
+            "y": 75.0
+        }, 
+        "278": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "3", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 278, 
+            "x": 150.0, 
+            "y": 95.0
+        }, 
+        "279": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "2", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 279, 
+            "x": 150.0, 
+            "y": 135.0
         }, 
         "28": {
             "__type__": "LineItem", 
@@ -4455,6 +4916,118 @@
             "xf": 445.0, 
             "y": 90.0, 
             "yf": 90.0
+        }, 
+        "280": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "4", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 280, 
+            "x": 150.0, 
+            "y": 180.0
+        }, 
+        "281": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "1bis", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 281, 
+            "x": 400.0, 
+            "y": 0.0
+        }, 
+        "282": {
+            "__type__": "Place", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "2bis", 
+            "nextTiId": null, 
+            "placeCode": null, 
+            "previousTiId": null, 
+            "tiId": 282, 
+            "x": 480.0, 
+            "y": 0.0
+        }, 
+        "283": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "1", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 283, 
+            "x": 1090.0, 
+            "y": -70.0
+        }, 
+        "284": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "2", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 284, 
+            "x": 1090.0, 
+            "y": -50.0
+        }, 
+        "285": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "A", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 285, 
+            "x": 1090.0, 
+            "y": 5.0
+        }, 
+        "286": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "4", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 286, 
+            "x": -140.0, 
+            "y": 160.0
+        }, 
+        "287": {
+            "__type__": "Place", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "1", 
+            "nextTiId": null, 
+            "placeCode": null, 
+            "previousTiId": null, 
+            "tiId": 287, 
+            "x": -345.0, 
+            "y": 70.0
+        }, 
+        "288": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "2", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 288, 
+            "x": -345.0, 
+            "y": 115.0
+        }, 
+        "289": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "1", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 289, 
+            "x": 650.0, 
+            "y": 75.0
         }, 
         "29": {
             "__type__": "SignalItem", 
@@ -4474,6 +5047,163 @@
             "y": 90.0, 
             "yn": 95.0
         }, 
+        "290": {
+            "__type__": "TextItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "2", 
+            "nextTiId": null, 
+            "previousTiId": null, 
+            "tiId": 290, 
+            "x": 650.0, 
+            "y": 110.0
+        }, 
+        "291": {
+            "__type__": "Place", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "VERNEUIL L'ETANG", 
+            "nextTiId": null, 
+            "placeCode": "VERN", 
+            "previousTiId": null, 
+            "tiId": 291, 
+            "x": 760.0, 
+            "y": 95.0
+        }, 
+        "292": {
+            "__type__": "PointsItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "292", 
+            "nextTiId": 118, 
+            "previousTiId": 293, 
+            "reverseTiId": 329, 
+            "tiId": 292, 
+            "x": 1655.0, 
+            "xf": 5.0, 
+            "xn": -5.0, 
+            "xr": -5.0, 
+            "y": -55.0, 
+            "yf": 0.0, 
+            "yn": 0.0, 
+            "yr": -5.0
+        }, 
+        "293": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 33.33, 
+            "name": "293", 
+            "nextTiId": 253, 
+            "placeCode": null, 
+            "previousTiId": 292, 
+            "realLength": 240.0, 
+            "tiId": 293, 
+            "trackCode": "", 
+            "x": 1660.0, 
+            "xf": 1720.0, 
+            "y": -55.0, 
+            "yf": -55.0
+        }, 
+        "294": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 33.33, 
+            "name": "294", 
+            "nextTiId": 295, 
+            "placeCode": null, 
+            "previousTiId": 253, 
+            "realLength": 330.0, 
+            "tiId": 294, 
+            "trackCode": "", 
+            "x": 1730.0, 
+            "xf": 1790.0, 
+            "y": -55.0, 
+            "yf": -55.0
+        }, 
+        "295": {
+            "__type__": "PointsItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "295", 
+            "nextTiId": 296, 
+            "previousTiId": 294, 
+            "reverseTiId": 299, 
+            "tiId": 295, 
+            "x": 1795.0, 
+            "xf": -5.0, 
+            "xn": 5.0, 
+            "xr": 5.0, 
+            "y": -55.0, 
+            "yf": 0.0, 
+            "yn": 0.0, 
+            "yr": -5.0
+        }, 
+        "296": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 33.33, 
+            "name": "296", 
+            "nextTiId": 297, 
+            "placeCode": null, 
+            "previousTiId": 295, 
+            "realLength": 545.0, 
+            "tiId": 296, 
+            "trackCode": "", 
+            "x": 1800.0, 
+            "xf": 1920.0, 
+            "y": -55.0, 
+            "yf": -55.0
+        }, 
+        "297": {
+            "__type__": "PointsItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "297", 
+            "nextTiId": 316, 
+            "previousTiId": 296, 
+            "reverseTiId": 313, 
+            "tiId": 297, 
+            "x": 1925.0, 
+            "xf": -5.0, 
+            "xn": 5.0, 
+            "xr": 5.0, 
+            "y": -55.0, 
+            "yf": 0.0, 
+            "yn": 0.0, 
+            "yr": -5.0
+        }, 
+        "298": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 8.33, 
+            "name": "298", 
+            "nextTiId": 309, 
+            "placeCode": null, 
+            "previousTiId": 300, 
+            "realLength": 15.0, 
+            "tiId": 298, 
+            "trackCode": "", 
+            "x": 1820.0, 
+            "xf": 1830.0, 
+            "y": -75.0, 
+            "yf": -75.0
+        }, 
+        "299": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 8.33, 
+            "name": "299", 
+            "nextTiId": 300, 
+            "placeCode": null, 
+            "previousTiId": 295, 
+            "realLength": 80.0, 
+            "tiId": 299, 
+            "trackCode": "", 
+            "x": 1800.0, 
+            "xf": 1810.0, 
+            "y": -60.0, 
+            "yf": -70.0
+        }, 
         "3": {
             "__type__": "SignalItem", 
             "conflictTiId": null, 
@@ -4482,7 +5212,7 @@
             "nextTiId": 4, 
             "previousTiId": 1, 
             "reverse": 0, 
-            "routesSetParams": "{'FR_BAL_RR30': [26], 'FR_BAL_ARR30': [26], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [26], 'FR_BAL_RR30': [26], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 3, 
             "trainNotPresentParams": "{}", 
@@ -4508,6 +5238,160 @@
             "y": 90.0, 
             "yf": 90.0
         }, 
+        "300": {
+            "__type__": "PointsItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "300", 
+            "nextTiId": 301, 
+            "previousTiId": 298, 
+            "reverseTiId": 299, 
+            "tiId": 300, 
+            "x": 1815.0, 
+            "xf": 5.0, 
+            "xn": -5.0, 
+            "xr": -5.0, 
+            "y": -75.0, 
+            "yf": 0.0, 
+            "yn": 0.0, 
+            "yr": 5.0
+        }, 
+        "301": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "301", 
+            "nextTiId": 300, 
+            "placeCode": null, 
+            "previousTiId": 302, 
+            "realLength": 1.0, 
+            "tiId": 301, 
+            "trackCode": "", 
+            "x": 1770.0, 
+            "xf": 1810.0, 
+            "y": -75.0, 
+            "yf": -75.0
+        }, 
+        "302": {
+            "__type__": "SignalItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "302", 
+            "nextTiId": 303, 
+            "previousTiId": 301, 
+            "reverse": 1, 
+            "routesSetParams": "{}", 
+            "signalType": "BUFFER", 
+            "tiId": 302, 
+            "trainNotPresentParams": "{}", 
+            "trainPresentParams": "{}", 
+            "x": 1770.0, 
+            "xn": 1765.0, 
+            "y": -75.0, 
+            "yn": -85.0
+        }, 
+        "303": {
+            "__type__": "EndItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "303", 
+            "nextTiId": null, 
+            "previousTiId": 302, 
+            "tiId": 303, 
+            "x": 1760.0, 
+            "y": -75.0
+        }, 
+        "304": {
+            "__type__": "PointsItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "304", 
+            "nextTiId": 308, 
+            "previousTiId": 310, 
+            "reverseTiId": 305, 
+            "tiId": 304, 
+            "x": 1855.0, 
+            "xf": -5.0, 
+            "xn": 5.0, 
+            "xr": 5.0, 
+            "y": -75.0, 
+            "yf": 0.0, 
+            "yn": 0.0, 
+            "yr": -5.0
+        }, 
+        "305": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "305", 
+            "nextTiId": 306, 
+            "placeCode": null, 
+            "previousTiId": 304, 
+            "realLength": 1.0, 
+            "tiId": 305, 
+            "trackCode": "", 
+            "x": 1860.0, 
+            "xf": 1890.0, 
+            "y": -80.0, 
+            "yf": -110.0
+        }, 
+        "306": {
+            "__type__": "EndItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "306", 
+            "nextTiId": null, 
+            "previousTiId": 305, 
+            "tiId": 306, 
+            "x": 1890.0, 
+            "y": -110.0
+        }, 
+        "307": {
+            "__type__": "Place", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "LGV", 
+            "nextTiId": null, 
+            "placeCode": null, 
+            "previousTiId": null, 
+            "tiId": 307, 
+            "x": 1895.0, 
+            "y": -130.0
+        }, 
+        "308": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "308", 
+            "nextTiId": 311, 
+            "placeCode": null, 
+            "previousTiId": 304, 
+            "realLength": 1.0, 
+            "tiId": 308, 
+            "trackCode": "", 
+            "x": 1860.0, 
+            "xf": 1890.0, 
+            "y": -75.0, 
+            "yf": -75.0
+        }, 
+        "309": {
+            "__type__": "SignalItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "309", 
+            "nextTiId": 298, 
+            "previousTiId": 310, 
+            "reverse": 1, 
+            "routesSetParams": "{'FR_M': []}", 
+            "signalType": "FR_BAL_CARRE", 
+            "tiId": 309, 
+            "trainNotPresentParams": "{}", 
+            "trainPresentParams": "{'FR_M': []}", 
+            "x": 1840.0, 
+            "xn": 1805.0, 
+            "y": -75.0, 
+            "yn": -90.0
+        }, 
         "31": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
@@ -4526,6 +5410,152 @@
             "yn": 0.0, 
             "yr": 5.0
         }, 
+        "310": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 8.33, 
+            "name": "310", 
+            "nextTiId": 304, 
+            "placeCode": null, 
+            "previousTiId": 309, 
+            "realLength": 10.0, 
+            "tiId": 310, 
+            "trackCode": "", 
+            "x": 1840.0, 
+            "xf": 1850.0, 
+            "y": -75.0, 
+            "yf": -75.0
+        }, 
+        "311": {
+            "__type__": "EndItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "311", 
+            "nextTiId": null, 
+            "previousTiId": 308, 
+            "tiId": 311, 
+            "x": 1890.0, 
+            "y": -75.0
+        }, 
+        "312": {
+            "__type__": "Place", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "BASE", 
+            "nextTiId": null, 
+            "placeCode": null, 
+            "previousTiId": null, 
+            "tiId": 312, 
+            "x": 1900.0, 
+            "y": -85.0
+        }, 
+        "313": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "313", 
+            "nextTiId": 314, 
+            "placeCode": null, 
+            "previousTiId": 297, 
+            "realLength": 1.0, 
+            "tiId": 313, 
+            "trackCode": "", 
+            "x": 1930.0, 
+            "xf": 1945.0, 
+            "y": -60.0, 
+            "yf": -75.0
+        }, 
+        "314": {
+            "__type__": "EndItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "314", 
+            "nextTiId": null, 
+            "previousTiId": 313, 
+            "tiId": 314, 
+            "x": 1945.0, 
+            "y": -75.0
+        }, 
+        "315": {
+            "__type__": "Place", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "EP", 
+            "nextTiId": null, 
+            "placeCode": null, 
+            "previousTiId": null, 
+            "tiId": 315, 
+            "x": 1955.0, 
+            "y": -85.0
+        }, 
+        "316": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "316", 
+            "nextTiId": 317, 
+            "placeCode": null, 
+            "previousTiId": 297, 
+            "realLength": 1.0, 
+            "tiId": 316, 
+            "trackCode": "", 
+            "x": 1930.0, 
+            "xf": 1990.0, 
+            "y": -55.0, 
+            "yf": -55.0
+        }, 
+        "317": {
+            "__type__": "SignalItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "317", 
+            "nextTiId": 318, 
+            "previousTiId": 316, 
+            "reverse": 0, 
+            "routesSetParams": "{'FR_M': []}", 
+            "signalType": "FR_BAL_CARRE", 
+            "tiId": 317, 
+            "trainNotPresentParams": "{}", 
+            "trainPresentParams": "{'FR_M': []}", 
+            "x": 1990.0, 
+            "xn": 1945.0, 
+            "y": -55.0, 
+            "yn": -50.0
+        }, 
+        "318": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 33.33, 
+            "name": "318", 
+            "nextTiId": 319, 
+            "placeCode": null, 
+            "previousTiId": 317, 
+            "realLength": 35.0, 
+            "tiId": 318, 
+            "trackCode": "", 
+            "x": 2000.0, 
+            "xf": 2030.0, 
+            "y": -55.0, 
+            "yf": -55.0
+        }, 
+        "319": {
+            "__type__": "SignalItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "319", 
+            "nextTiId": 318, 
+            "previousTiId": 322, 
+            "reverse": 1, 
+            "routesSetParams": "{'FR_M': []}", 
+            "signalType": "FR_BAL_CARRE", 
+            "tiId": 319, 
+            "trainNotPresentParams": "{}", 
+            "trainPresentParams": "{'FR_M': []}", 
+            "x": 2040.0, 
+            "xn": 2050.0, 
+            "y": -55.0, 
+            "yn": -50.0
+        }, 
         "32": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
@@ -4542,6 +5572,163 @@
             "y": 150.0, 
             "yf": 150.0
         }, 
+        "320": {
+            "__type__": "PointsItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "320", 
+            "nextTiId": 325, 
+            "previousTiId": 322, 
+            "reverseTiId": 321, 
+            "tiId": 320, 
+            "x": 2105.0, 
+            "xf": -5.0, 
+            "xn": 5.0, 
+            "xr": 5.0, 
+            "y": -55.0, 
+            "yf": 0.0, 
+            "yn": 0.0, 
+            "yr": 5.0
+        }, 
+        "321": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 8.33, 
+            "name": "321", 
+            "nextTiId": 323, 
+            "placeCode": null, 
+            "previousTiId": 320, 
+            "realLength": 80.0, 
+            "tiId": 321, 
+            "trackCode": "", 
+            "x": 2110.0, 
+            "xf": 2130.0, 
+            "y": -50.0, 
+            "yf": -30.0
+        }, 
+        "322": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 33.33, 
+            "name": "322", 
+            "nextTiId": 320, 
+            "placeCode": null, 
+            "previousTiId": 319, 
+            "realLength": 1500.0, 
+            "tiId": 322, 
+            "trackCode": "", 
+            "x": 2040.0, 
+            "xf": 2100.0, 
+            "y": -55.0, 
+            "yf": -55.0
+        }, 
+        "323": {
+            "__type__": "EndItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "323", 
+            "nextTiId": null, 
+            "previousTiId": 321, 
+            "tiId": 323, 
+            "x": 2130.0, 
+            "y": -30.0
+        }, 
+        "324": {
+            "__type__": "Place", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "VAL BREON", 
+            "nextTiId": null, 
+            "placeCode": null, 
+            "previousTiId": null, 
+            "tiId": 324, 
+            "x": 2135.0, 
+            "y": -25.0
+        }, 
+        "325": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "325", 
+            "nextTiId": 327, 
+            "placeCode": null, 
+            "previousTiId": 320, 
+            "realLength": 1000.0, 
+            "tiId": 325, 
+            "trackCode": "", 
+            "x": 2110.0, 
+            "xf": 2160.0, 
+            "y": -55.0, 
+            "yf": -55.0
+        }, 
+        "326": {
+            "__type__": "SignalItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "326", 
+            "nextTiId": 328, 
+            "previousTiId": 254, 
+            "reverse": 1, 
+            "routesSetParams": "{}", 
+            "signalType": "FR_BAL_SEMAPHORE_AUTO", 
+            "tiId": 326, 
+            "trainNotPresentParams": "{}", 
+            "trainPresentParams": "{}", 
+            "x": 2210.0, 
+            "xn": 2220.0, 
+            "y": -55.0, 
+            "yn": -50.0
+        }, 
+        "327": {
+            "__type__": "SignalItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "327", 
+            "nextTiId": 328, 
+            "previousTiId": 325, 
+            "reverse": 0, 
+            "routesSetParams": "{}", 
+            "signalType": "FR_BAL_SEMAPHORE_TP", 
+            "tiId": 327, 
+            "trainNotPresentParams": "{'FR_BAL_VL': [], 'FR_BAL_A': []}", 
+            "trainPresentParams": "{}", 
+            "x": 2160.0, 
+            "xn": 2120.0, 
+            "y": -55.0, 
+            "yn": -50.0
+        }, 
+        "328": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 33.33, 
+            "name": "328", 
+            "nextTiId": 326, 
+            "placeCode": null, 
+            "previousTiId": 327, 
+            "realLength": 350.0, 
+            "tiId": 328, 
+            "trackCode": "", 
+            "x": 2170.0, 
+            "xf": 2200.0, 
+            "y": -55.0, 
+            "yf": -55.0
+        }, 
+        "329": {
+            "__type__": "LineItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "329", 
+            "nextTiId": 292, 
+            "placeCode": null, 
+            "previousTiId": 330, 
+            "realLength": 1.0, 
+            "tiId": 329, 
+            "trackCode": "", 
+            "x": 1635.0, 
+            "xf": 1650.0, 
+            "y": -75.0, 
+            "yf": -60.0
+        }, 
         "33": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
@@ -4557,6 +5744,17 @@
             "xf": 290.0, 
             "y": 175.0, 
             "yf": 155.0
+        }, 
+        "330": {
+            "__type__": "EndItem", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "330", 
+            "nextTiId": null, 
+            "previousTiId": 329, 
+            "tiId": 330, 
+            "x": 1635.0, 
+            "y": -75.0
         }, 
         "34": {
             "__type__": "PlatformItem", 
@@ -5012,7 +6210,7 @@
             "nextTiId": 39, 
             "previousTiId": 60, 
             "reverse": 1, 
-            "routesSetParams": "{'FR_BAL_RR30': [], 'FR_BAL_R30': [], 'FR_BAL_ARR30': [], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [], 'FR_BAL_R30': [], 'FR_BAL_RR30': [], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 61, 
             "trainNotPresentParams": "{}", 
@@ -5064,7 +6262,7 @@
             "nextTiId": 57, 
             "previousTiId": 65, 
             "reverse": 1, 
-            "routesSetParams": "{'FR_BAL_RR30': [44, 45, 46, 47], 'FR_BAL_ARR30': [44, 45, 46, 47], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [44, 45, 46, 47], 'FR_BAL_RR30': [44, 45, 46, 47], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 64, 
             "trainNotPresentParams": "{}", 
@@ -5204,7 +6402,7 @@
             "nextTiId": 77, 
             "previousTiId": 258, 
             "reverse": 0, 
-            "routesSetParams": "{'FR_BAL_RR30': [], 'FR_BAL_ARR30': [], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [], 'FR_BAL_RR30': [], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 72, 
             "trainNotPresentParams": "{}", 
@@ -5222,7 +6420,7 @@
             "nextTiId": 75, 
             "previousTiId": 70, 
             "reverse": 0, 
-            "routesSetParams": "{'FR_BAL_RR30': [84, 87], 'FR_BAL_ARR30': [84, 87], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [84, 87], 'FR_BAL_RR30': [84, 87], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 73, 
             "trainNotPresentParams": "{}", 
@@ -5460,7 +6658,7 @@
             "nextTiId": 85, 
             "previousTiId": 89, 
             "reverse": 1, 
-            "routesSetParams": "{'FR_BAL_RR30': [85], 'FR_BAL_ARR30': [85], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [85], 'FR_BAL_RR30': [85], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 86, 
             "trainNotPresentParams": "{}", 
@@ -5556,7 +6754,7 @@
             "nextTiId": 106, 
             "previousTiId": 90, 
             "reverse": 0, 
-            "routesSetParams": "{'FR_BAL_RR30': [96], 'FR_BAL_ARR30': [96], 'FR_M': [98]}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [171], 'FR_BAL_RR30': [171], 'FR_M': [98]}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 91, 
             "trainNotPresentParams": "{}", 
@@ -5688,7 +6886,7 @@
             "nextTiId": 97, 
             "previousTiId": 98, 
             "reverse": 1, 
-            "routesSetParams": "{'FR_BAL_RR30': [133], 'FR_BAL_ARR30': [133], 'FR_M': []}", 
+            "routesSetParams": "{'FR_BAL_ARR30': [133], 'FR_BAL_RR30': [133], 'FR_M': []}", 
             "signalType": "FR_BAL_RR30", 
             "tiId": 99, 
             "trainNotPresentParams": "{}", 
@@ -5766,48 +6964,48 @@
             "__type__": "Train", 
             "appearTime": "04:30:00", 
             "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
-            "initialSpeed": 0, 
+            "initialSpeed": 0.0, 
             "nextPlaceIndex": 0, 
-            "serviceCode": "W118400a", 
-            "speed": 0, 
+            "serviceCode": "HAVA118400", 
+            "speed": 0.0, 
             "status": 0, 
             "stoppedTime": 0, 
             "trainHead": {
                 "__type__": "Position", 
-                "positionOnTI": 0.0, 
-                "previousTI": 216, 
-                "trackItem": 199
+                "positionOnTI": 230.0, 
+                "previousTI": 101, 
+                "trackItem": 100
             }, 
             "trainId": 0, 
             "trainTypeCode": "Z22500-UM"
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "05:00:00", 
+            "appearTime": "04:30:00", 
             "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
-            "initialSpeed": 0, 
+            "initialSpeed": 0.0, 
             "nextPlaceIndex": 0, 
-            "serviceCode": "W118412a", 
-            "speed": 0, 
+            "serviceCode": "HAVA118412", 
+            "speed": 0.0, 
             "status": 0, 
             "stoppedTime": 0, 
             "trainHead": {
                 "__type__": "Position", 
-                "positionOnTI": 0.0, 
-                "previousTI": 216, 
-                "trackItem": 199
+                "positionOnTI": 230.0, 
+                "previousTI": 102, 
+                "trackItem": 93
             }, 
             "trainId": 1, 
             "trainTypeCode": "Z22500-UM"
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "05:30:00", 
+            "appearTime": "05:45:00", 
             "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
-            "initialSpeed": 0, 
+            "initialSpeed": 0.0, 
             "nextPlaceIndex": 0, 
-            "serviceCode": "W118102a", 
-            "speed": 0, 
+            "serviceCode": "W118106a", 
+            "speed": 0.0, 
             "status": 0, 
             "stoppedTime": 0, 
             "trainHead": {
@@ -5821,30 +7019,144 @@
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "05:58:00", 
+            "appearTime": "04:30:00", 
             "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
-            "initialSpeed": 25.0, 
-            "nextPlaceIndex": null, 
-            "serviceCode": "PITU117320", 
-            "speed": 25.0, 
+            "initialSpeed": 0.0, 
+            "nextPlaceIndex": 0, 
+            "serviceCode": "HIVA118102", 
+            "speed": 0.0, 
             "status": 0, 
             "stoppedTime": 0, 
             "trainHead": {
                 "__type__": "Position", 
-                "positionOnTI": -0.5, 
+                "positionOnTI": 230.0, 
+                "previousTI": 91, 
+                "trackItem": 90
+            }, 
+            "trainId": 3, 
+            "trainTypeCode": "Z22500-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "06:00:00", 
+            "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
+            "initialSpeed": 0.0, 
+            "nextPlaceIndex": 0, 
+            "serviceCode": "W118110a", 
+            "speed": 0.0, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": 216, 
+                "trackItem": 199
+            }, 
+            "trainId": 4, 
+            "trainTypeCode": "Z22500-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "06:15:00", 
+            "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
+            "initialSpeed": 0.0, 
+            "nextPlaceIndex": 0, 
+            "serviceCode": "W118114a", 
+            "speed": 0.0, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": 216, 
+                "trackItem": 199
+            }, 
+            "trainId": 5, 
+            "trainTypeCode": "Z22500-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "07:00:00", 
+            "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
+            "initialSpeed": 0.0, 
+            "nextPlaceIndex": 0, 
+            "serviceCode": "W118126a", 
+            "speed": 0.0, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": 216, 
+                "trackItem": 199
+            }, 
+            "trainId": 6, 
+            "trainTypeCode": "Z22500-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "05:56:00", 
+            "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
+            "initialSpeed": 33.33, 
+            "nextPlaceIndex": 0, 
+            "serviceCode": "PITU117320", 
+            "speed": 33.33, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
                 "previousTI": 119, 
                 "trackItem": 254
             }, 
-            "trainId": 3, 
+            "trainId": 7, 
             "trainTypeCode": "Z50000"
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "06:48:00", 
+            "appearTime": "06:41:00", 
+            "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
+            "initialSpeed": 33.33, 
+            "nextPlaceIndex": 0, 
+            "serviceCode": "PITU117322", 
+            "speed": 33.33, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": 119, 
+                "trackItem": 254
+            }, 
+            "trainId": 8, 
+            "trainTypeCode": "Z50000"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "07:11:00", 
+            "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
+            "initialSpeed": 33.33, 
+            "nextPlaceIndex": 0, 
+            "serviceCode": "PITU117326", 
+            "speed": 33.33, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": 119, 
+                "trackItem": 254
+            }, 
+            "trainId": 9, 
+            "trainTypeCode": "Z50000-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "06:25:00", 
             "initialDelay": "[(-60, 0, 50), (0, 60, 50)]", 
             "initialSpeed": 38.89, 
             "nextPlaceIndex": 0, 
-            "serviceCode": "TIVA118103", 
+            "serviceCode": "TAVA118401", 
             "speed": 38.89, 
             "status": 0, 
             "stoppedTime": 0, 
@@ -5854,7 +7166,7 @@
                 "previousTI": 190, 
                 "trackItem": 275
             }, 
-            "trainId": 4, 
+            "trainId": 10, 
             "trainTypeCode": "Z22500-UM"
         }, 
         {
@@ -5873,7 +7185,7 @@
                 "previousTI": 190, 
                 "trackItem": 275
             }, 
-            "trainId": 5, 
+            "trainId": 11, 
             "trainTypeCode": "Z22500-UM"
         }
     ]
