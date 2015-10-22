@@ -9,12 +9,38 @@
             "shapes": [1, 0, 1, 0, 0, 0],
             "shapesColors": ["#FFFF00", 0, "#FFFF00", 0, 0, 0],
             "actions": [[0, 25]]
+        },
+        "UK_BANNER_ON": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [1, 0, 0, 0, 0, 0],
+            "outerColors": ["#FFFFFF", 0, 0, 0, 0, 0],
+            "shapes": [21, 0, 0, 0, 0, 0],
+            "shapesColors": [0, 0, 0, 0, 0, 0],
+            "actions": []
+        },
+        "UK_BANNER_OFF": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [1, 0, 0, 0, 0, 0],
+            "outerColors": ["#FFFFFF", 0, 0, 0, 0, 0],
+            "shapes": [23, 0, 0, 0, 0, 0],
+            "shapesColors": [0, 0, 0, 0, 0, 0],
+            "actions": []
         }
     },
     "signalTypes": {
         "UK_3_ASPECTS": {
             "__type__": "SignalType",
             "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "UK_DANGER",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
                 {
                     "__type__": "SignalState",
                     "aspectName": "UK_CLEAR",
@@ -50,6 +76,14 @@
         "UK_4_ASPECTS": {
             "__type__": "SignalType",
             "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "UK_DANGER",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
                 {
                     "__type__": "SignalState",
                     "aspectName": "UK_CLEAR",
@@ -222,36 +256,13 @@
                 }
             ]
         },
-        "UK_3_ASPECTS_ACFR": {
+        "UK_BANNER_REPEATER": {
             "__type__": "SignalType",
             "states": [
                 {
                     "__type__": "SignalState",
-                    "aspectName": "UK_DANGER",
+                    "aspectName": "UK_BANNER_ON",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_ITEMS": [],
-                        "ROUTES_SET": []
-                    }
-                },
-                {
-                    "__type__": "SignalState",
-                    "aspectName": "UK_CLEAR",
-                    "conditions": {
-                        "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
-                        "NEXT_SIGNAL_ASPECTS": [
-                            "UK_CLEAR",
-                            "UK_CAUTION",
-                            "UK_PRE_CAUTION"
-                        ]
-                    }
-                },
-                {
-                    "__type__": "SignalState",
-                    "aspectName": "UK_CAUTION",
-                    "conditions": {
-                        "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "UK_DANGER",
                             "BUFFER"
@@ -260,64 +271,10 @@
                 },
                 {
                     "__type__": "SignalState",
-                    "aspectName": "UK_DANGER",
-                    "conditions": {}
-                }
-            ]
-        },
-        "UK_4_ASPECTS_ACFR": {
-            "__type__": "SignalType",
-            "states": [
-                {
-                    "__type__": "SignalState",
-                    "aspectName": "UK_DANGER",
-                    "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_ITEMS": [],
-                        "ROUTES_SET": []
-                    }
-                },
-                {
-                    "__type__": "SignalState",
-                    "aspectName": "UK_CLEAR",
-                    "conditions": {
-                        "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
-                        "NEXT_SIGNAL_ASPECTS": [
-                            "UK_CLEAR",
-                            "UK_PRE_CAUTION"
-                        ]
-                    }
-                },
-                {
-                    "__type__": "SignalState",
-                    "aspectName": "UK_PRE_CAUTION",
-                    "conditions": {
-                        "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
-                        "NEXT_SIGNAL_ASPECTS": [
-                            "UK_CAUTION"
-                        ]
-                    }
-                },
-                {
-                    "__type__": "SignalState",
-                    "aspectName": "UK_CAUTION",
-                    "conditions": {
-                        "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
-                        "NEXT_SIGNAL_ASPECTS": [
-                            "UK_DANGER",
-                            "BUFFER"
-                        ]
-                    }
-                },
-                {
-                    "__type__": "SignalState",
-                    "aspectName": "UK_DANGER",
+                    "aspectName": "UK_BANNER_OFF",
                     "conditions": {}
                 }
             ]
         }
     }
 }
-
