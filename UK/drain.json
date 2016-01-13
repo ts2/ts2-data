@@ -7,16 +7,16 @@
     "options": {
         "currentScore": 0, 
         "currentTime": "06:00:00", 
-        "defaultDelayAtEntry": "0", 
-        "defaultMaxSpeed": "18.06", 
-        "defaultMinimumStopTime": "[(20,40,90),(40,120,10)]", 
-        "defaultSignalVisibility": "100", 
+        "defaultDelayAtEntry": 0, 
+        "defaultMaxSpeed": 18.06, 
+        "defaultMinimumStopTime": [[20,40,90],[40,120,10]], 
+        "defaultSignalVisibility": 100, 
         "description": "This simulation is freely inspired from SimSig \"Drain\" simulation by G. Mayo.", 
-        "timeFactor": "5", 
+        "timeFactor": 5, 
         "title": "London Underground Waterloo & City line", 
-        "trackCircuitBased": "0", 
-        "version": 0.6, 
-        "warningSpeed": "8.34"
+        "trackCircuitBased": false, 
+        "version": "0.6", 
+        "warningSpeed": 8.34
     }, 
     "routes": {
         "1": {

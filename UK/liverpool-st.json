@@ -9,13 +9,13 @@
         "currentTime": "05:00:15", 
         "defaultDelayAtEntry": "[(-120,-60,15),(-60,180,50),(120,300,30),(300,3600,5)]", 
         "defaultMaxSpeed": 6.7, 
-        "defaultMinimumStopTime": "[(45,75,90),(75,180,10)]", 
+        "defaultMinimumStopTime": [[45,75,90],[75,180,10]], 
         "defaultSignalVisibility": 100, 
         "description": "This simulation is freely inspired from SimSig's \"Liverpool Street\" simulation by G. Mayo.", 
         "timeFactor": 5, 
         "title": "London Liverpool Street Station", 
-        "trackCircuitBased": 0, 
-        "version": 0.6, 
+        "trackCircuitBased": false, 
+        "version": "0.6", 
         "warningSpeed": 8.3
     }, 
     "routes": {
