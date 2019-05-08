@@ -5,9 +5,9 @@
             "__type__": "SignalAspect",
             "lineStyle": 0,
             "outerShapes": [0, 0, 0, 0, 0, 0],
-            "outerColors": [0, 0, 0, 0, 0, 0],
+            "outerColors": ["#000000", "#000000", "#000000", "#000000", "#000000", "#000000"],
             "shapes": [1, 0, 1, 0, 0, 0],
-            "shapesColors": ["#FFFF00", 0, "#FFFF00", 0, 0, 0],
+            "shapesColors": ["#FFFF00", "#000000", "#FFFF00", "#000000", "#000000", "#000000"],
             "actions": [[0, 25]]
         }
     },
