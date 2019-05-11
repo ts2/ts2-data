@@ -42,8 +42,8 @@
                 "512": 0
             }, 
             "endSignal": "73", 
-            "initialState": 1, 
-            "routeNum": "1"
+            "id": "1", 
+            "initialState": 1
         }, 
         "101": {
             "__type__": "Route", 
@@ -53,8 +53,8 @@
                 "521": 1
             }, 
             "endSignal": "73", 
-            "initialState": 0, 
-            "routeNum": "101"
+            "id": "101", 
+            "initialState": 0
         }, 
         "102": {
             "__type__": "Route", 
@@ -64,16 +64,16 @@
                 "522": 1
             }, 
             "endSignal": "71", 
-            "initialState": 0, 
-            "routeNum": "102"
+            "id": "102", 
+            "initialState": 0
         }, 
         "2": {
             "__type__": "Route", 
             "beginSignal": "73", 
             "directions": {}, 
             "endSignal": "74", 
-            "initialState": 2, 
-            "routeNum": "2"
+            "id": "2", 
+            "initialState": 2
         }, 
         "202": {
             "__type__": "Route", 
@@ -84,8 +84,8 @@
                 "561": 0
             }, 
             "endSignal": "62", 
-            "initialState": 0, 
-            "routeNum": "202"
+            "id": "202", 
+            "initialState": 0
         }, 
         "203": {
             "__type__": "Route", 
@@ -95,8 +95,8 @@
                 "551": 0
             }, 
             "endSignal": "52", 
-            "initialState": 1, 
-            "routeNum": "203"
+            "id": "203", 
+            "initialState": 1
         }, 
         "205": {
             "__type__": "Route", 
@@ -108,8 +108,8 @@
                 "561": 0
             }, 
             "endSignal": "62", 
-            "initialState": 0, 
-            "routeNum": "205"
+            "id": "205", 
+            "initialState": 0
         }, 
         "206": {
             "__type__": "Route", 
@@ -120,8 +120,8 @@
                 "551": 0
             }, 
             "endSignal": "52", 
-            "initialState": 0, 
-            "routeNum": "206"
+            "id": "206", 
+            "initialState": 0
         }, 
         "207": {
             "__type__": "Route", 
@@ -133,8 +133,8 @@
                 "561": 1
             }, 
             "endSignal": "86", 
-            "initialState": 0, 
-            "routeNum": "207"
+            "id": "207", 
+            "initialState": 0
         }, 
         "208": {
             "__type__": "Route", 
@@ -146,8 +146,8 @@
                 "561": 0
             }, 
             "endSignal": "86", 
-            "initialState": 0, 
-            "routeNum": "208"
+            "id": "208", 
+            "initialState": 0
         }, 
         "209": {
             "__type__": "Route", 
@@ -158,8 +158,8 @@
                 "551": 0
             }, 
             "endSignal": "86", 
-            "initialState": 0, 
-            "routeNum": "209"
+            "id": "209", 
+            "initialState": 0
         }, 
         "210": {
             "__type__": "Route", 
@@ -169,8 +169,8 @@
                 "531": 0
             }, 
             "endSignal": "32", 
-            "initialState": 0, 
-            "routeNum": "210"
+            "id": "210", 
+            "initialState": 0
         }, 
         "211": {
             "__type__": "Route", 
@@ -180,8 +180,8 @@
                 "531": 1
             }, 
             "endSignal": "42", 
-            "initialState": 0, 
-            "routeNum": "211"
+            "id": "211", 
+            "initialState": 0
         }, 
         "212": {
             "__type__": "Route", 
@@ -191,8 +191,8 @@
                 "531": 0
             }, 
             "endSignal": "86", 
-            "initialState": 0, 
-            "routeNum": "212"
+            "id": "212", 
+            "initialState": 0
         }, 
         "213": {
             "__type__": "Route", 
@@ -202,8 +202,8 @@
                 "531": 1
             }, 
             "endSignal": "86", 
-            "initialState": 0, 
-            "routeNum": "213"
+            "id": "213", 
+            "initialState": 0
         }, 
         "215": {
             "__type__": "Route", 
@@ -214,8 +214,8 @@
                 "561": 1
             }, 
             "endSignal": "1000028", 
-            "initialState": 0, 
-            "routeNum": "215"
+            "id": "215", 
+            "initialState": 0
         }, 
         "216": {
             "__type__": "Route", 
@@ -227,40 +227,40 @@
                 "561": 1
             }, 
             "endSignal": "1000028", 
-            "initialState": 0, 
-            "routeNum": "216"
+            "id": "216", 
+            "initialState": 0
         }, 
         "3": {
             "__type__": "Route", 
             "beginSignal": "74", 
             "directions": {}, 
             "endSignal": "75", 
-            "initialState": 2, 
-            "routeNum": "3"
+            "id": "3", 
+            "initialState": 2
         }, 
         "51": {
             "__type__": "Route", 
             "beginSignal": "86", 
             "directions": {}, 
             "endSignal": "85", 
-            "initialState": 2, 
-            "routeNum": "51"
+            "id": "51", 
+            "initialState": 2
         }, 
         "52": {
             "__type__": "Route", 
             "beginSignal": "85", 
             "directions": {}, 
             "endSignal": "84", 
-            "initialState": 2, 
-            "routeNum": "52"
+            "id": "52", 
+            "initialState": 2
         }, 
         "53": {
             "__type__": "Route", 
             "beginSignal": "84", 
             "directions": {}, 
             "endSignal": "83", 
-            "initialState": 2, 
-            "routeNum": "53"
+            "id": "53", 
+            "initialState": 2
         }, 
         "54": {
             "__type__": "Route", 
@@ -270,8 +270,8 @@
                 "522": 0
             }, 
             "endSignal": "81", 
-            "initialState": 0, 
-            "routeNum": "54"
+            "id": "54", 
+            "initialState": 0
         }
     }, 
     "services": {
