@@ -480,7 +480,6 @@
             "__type__": "Route", 
             "beginSignal": "317", 
             "directions": {
-                "320": 0
             }, 
             "endSignal": "327", 
             "id": "176", 
@@ -510,16 +509,6 @@
             }, 
             "endSignal": "8", 
             "id": "18", 
-            "initialState": 0
-        }, 
-        "180": {
-            "__type__": "Route", 
-            "beginSignal": "326", 
-            "directions": {
-                "320": 0
-            }, 
-            "endSignal": "319", 
-            "id": "180", 
             "initialState": 0
         }, 
         "20": {
@@ -3051,7 +3040,7 @@
         "100": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 19.44, 
+            "maxSpeed": 25.0, 
             "name": "100", 
             "nextTiId": "101", 
             "placeCode": "TOUR", 
@@ -3145,7 +3134,7 @@
         "105": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 16.67, 
             "name": "508", 
             "nextTiId": "106", 
             "previousTiId": "107", 
@@ -3163,7 +3152,7 @@
         "106": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 19.44, 
+            "maxSpeed": 16.67, 
             "name": "106", 
             "nextTiId": "105", 
             "placeCode": null, 
@@ -3195,7 +3184,7 @@
         "108": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 16.67, 
             "name": "509a", 
             "nextTiId": "112", 
             "previousTiId": "107", 
@@ -3213,7 +3202,7 @@
         "109": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 19.44, 
+            "maxSpeed": 33.33, 
             "name": "109", 
             "nextTiId": "110", 
             "placeCode": null, 
@@ -3247,7 +3236,7 @@
         "110": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 16.67, 
             "name": "509b", 
             "nextTiId": "109", 
             "previousTiId": "116", 
@@ -3353,7 +3342,7 @@
         "116": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 19.44, 
+            "maxSpeed": 33.33, 
             "name": "116", 
             "nextTiId": "117", 
             "placeCode": null, 
@@ -3464,7 +3453,7 @@
         "121": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 8.33, 
             "name": "121", 
             "nextTiId": "122", 
             "placeCode": null, 
@@ -3659,7 +3648,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "3616", 
             "nextTiId": "137", 
             "previousTiId": "9", 
@@ -3754,7 +3743,7 @@
         "137": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 8.33, 
             "name": "137", 
             "nextTiId": "131", 
             "placeCode": null, 
@@ -3982,7 +3971,7 @@
         "15": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "3609b", 
             "nextTiId": "23", 
             "previousTiId": "14", 
@@ -4486,7 +4475,7 @@
         "176": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "3612a", 
             "nextTiId": "178", 
             "previousTiId": "182", 
@@ -4504,7 +4493,7 @@
         "177": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "300", 
             "nextTiId": "121", 
             "previousTiId": "178", 
@@ -4538,7 +4527,7 @@
         "179": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 8.33, 
             "name": "179", 
             "nextTiId": "181", 
             "placeCode": null, 
@@ -4570,7 +4559,7 @@
         "180": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 8.33, 
             "name": "180", 
             "nextTiId": "179", 
             "placeCode": null, 
@@ -4591,7 +4580,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "181", 
             "nextTiId": "218", 
             "previousTiId": "179", 
@@ -4601,7 +4590,7 @@
             "x": 115.0, 
             "xn": 75.0, 
             "y": 25.0, 
-            "yn": 30.0
+            "yn": 25.0
         }, 
         "182": {
             "__type__": "LineItem", 
@@ -4627,7 +4616,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "3615", 
             "nextTiId": "182", 
             "previousTiId": "184", 
@@ -4642,7 +4631,7 @@
         "184": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 8.33, 
             "name": "184", 
             "nextTiId": "183", 
             "placeCode": "GRETZ", 
@@ -4663,7 +4652,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "3605", 
             "nextTiId": "189", 
             "previousTiId": "186", 
@@ -4710,7 +4699,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "6", 
             "nextTiId": "189", 
             "previousTiId": "184", 
@@ -5422,7 +5411,7 @@
         "241": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 38.89, 
             "name": "241", 
             "nextTiId": "230", 
             "placeCode": null, 
@@ -5643,7 +5632,7 @@
                     "FR_M": []
                 }
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 33.33, 
             "name": "517", 
             "nextTiId": "294", 
             "previousTiId": "293", 
@@ -5679,7 +5668,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 25.0, 
             "name": "39,7", 
             "nextTiId": "257", 
             "previousTiId": "258", 
@@ -5743,13 +5732,13 @@
             "__type__": "Place", 
             "conflictTiId": null, 
             "maxSpeed": 0.0, 
-            "name": "EMERAINVILLE", 
+            "name": "EMERAINVILLE (PARIS)", 
             "nextTiId": null, 
             "placeCode": "EMER", 
             "previousTiId": null, 
             "tiId": "259", 
-            "x": -1250.0, 
-            "y": 95.0
+            "x": -1290.0, 
+            "y": 90.0
         }, 
         "26": {
             "__type__": "PointsItem", 
@@ -5833,7 +5822,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 38.89, 
             "name": "33,4 I", 
             "nextTiId": "262", 
             "previousTiId": "264", 
@@ -6000,7 +5989,7 @@
                 }, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 38.89, 
             "name": "31,9", 
             "nextTiId": "273", 
             "previousTiId": "270", 
@@ -6064,7 +6053,7 @@
             "__type__": "Place", 
             "conflictTiId": null, 
             "maxSpeed": 0.0, 
-            "name": "MARLES-EN-BRIE", 
+            "name": "MARLES-EN-BRIE (COULOMMIERS)", 
             "nextTiId": null, 
             "placeCode": "MARL", 
             "previousTiId": null, 
@@ -6268,7 +6257,7 @@
             "__type__": "Place", 
             "conflictTiId": null, 
             "maxSpeed": 0.0, 
-            "name": "VERNEUIL L'ETANG", 
+            "name": "VERNEUIL L'ETANG (MULHOUSE)", 
             "nextTiId": null, 
             "placeCode": "VERN", 
             "previousTiId": null, 
@@ -6280,7 +6269,7 @@
             "__type__": "PointsItem", 
             "conflictTiId": null, 
             "maxSpeed": 0.0, 
-            "name": "292", 
+            "name": "F", 
             "nextTiId": "118", 
             "previousTiId": "293", 
             "reverseTiId": "329", 
@@ -6329,8 +6318,8 @@
         "295": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
-            "name": "295", 
+            "maxSpeed": 33.33, 
+            "name": "520a", 
             "nextTiId": "296", 
             "previousTiId": "294", 
             "reverseTiId": "299", 
@@ -6352,7 +6341,7 @@
             "nextTiId": "297", 
             "placeCode": null, 
             "previousTiId": "295", 
-            "realLength": 545.0, 
+            "realLength": 550.0, 
             "tiId": "296", 
             "trackCode": "", 
             "x": 1800.0, 
@@ -6363,8 +6352,8 @@
         "297": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
-            "name": "297", 
+            "maxSpeed": 33.33, 
+            "name": "EV", 
             "nextTiId": "316", 
             "previousTiId": "296", 
             "reverseTiId": "313", 
@@ -6459,8 +6448,8 @@
         "300": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
-            "name": "300", 
+            "maxSpeed": 8.33, 
+            "name": "520b", 
             "nextTiId": "301", 
             "previousTiId": "298", 
             "reverseTiId": "299", 
@@ -6477,7 +6466,7 @@
         "301": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 8.33, 
             "name": "301", 
             "nextTiId": "300", 
             "placeCode": null, 
@@ -6525,7 +6514,7 @@
             "__type__": "PointsItem", 
             "conflictTiId": null, 
             "maxSpeed": 0.0, 
-            "name": "304", 
+            "name": "D", 
             "nextTiId": "308", 
             "previousTiId": "310", 
             "reverseTiId": "305", 
@@ -6542,7 +6531,7 @@
         "305": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 8.33, 
             "name": "305", 
             "nextTiId": "306", 
             "placeCode": null, 
@@ -6581,7 +6570,7 @@
         "308": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 8.33, 
             "name": "308", 
             "nextTiId": "311", 
             "placeCode": null, 
@@ -6606,8 +6595,8 @@
                     "FR_M": []
                 }
             }, 
-            "maxSpeed": 0.0, 
-            "name": "309", 
+            "maxSpeed": 8.33, 
+            "name": "516", 
             "nextTiId": "298", 
             "previousTiId": "310", 
             "reverse": true, 
@@ -6678,7 +6667,7 @@
         "313": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 8.33, 
             "name": "313", 
             "nextTiId": "314", 
             "placeCode": null, 
@@ -6722,7 +6711,7 @@
             "nextTiId": "317", 
             "placeCode": null, 
             "previousTiId": "297", 
-            "realLength": 1.0, 
+            "realLength": 330.0, 
             "tiId": "316", 
             "trackCode": "", 
             "x": 1930.0, 
@@ -6742,8 +6731,8 @@
                     "FR_M": []
                 }
             }, 
-            "maxSpeed": 0.0, 
-            "name": "317", 
+            "maxSpeed": 33.33, 
+            "name": "519", 
             "nextTiId": "318", 
             "previousTiId": "316", 
             "reverse": false, 
@@ -6762,7 +6751,7 @@
             "nextTiId": "319", 
             "placeCode": null, 
             "previousTiId": "317", 
-            "realLength": 35.0, 
+            "realLength": 36.0, 
             "tiId": "318", 
             "trackCode": "", 
             "x": 2000.0, 
@@ -6782,10 +6771,10 @@
                     "FR_M": []
                 }
             }, 
-            "maxSpeed": 0.0, 
-            "name": "319", 
+            "maxSpeed": 33.33, 
+            "name": "518", 
             "nextTiId": "318", 
-            "previousTiId": "322", 
+            "previousTiId": "325", 
             "reverse": true, 
             "signalType": "FR_BAL_CARRE", 
             "tiId": "319", 
@@ -6797,7 +6786,7 @@
         "32": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 38.89, 
             "name": "32", 
             "nextTiId": "31", 
             "placeCode": null, 
@@ -6809,67 +6798,6 @@
             "xf": 290.0, 
             "y": 150.0, 
             "yf": 150.0
-        }, 
-        "320": {
-            "__type__": "PointsItem", 
-            "conflictTiId": null, 
-            "maxSpeed": 0.0, 
-            "name": "320", 
-            "nextTiId": "325", 
-            "previousTiId": "322", 
-            "reverseTiId": "321", 
-            "tiId": "320", 
-            "x": 2105.0, 
-            "xf": -5.0, 
-            "xn": 5.0, 
-            "xr": 5.0, 
-            "y": -55.0, 
-            "yf": 0.0, 
-            "yn": 0.0, 
-            "yr": 5.0
-        }, 
-        "321": {
-            "__type__": "LineItem", 
-            "conflictTiId": null, 
-            "maxSpeed": 8.33, 
-            "name": "321", 
-            "nextTiId": "323", 
-            "placeCode": null, 
-            "previousTiId": "320", 
-            "realLength": 80.0, 
-            "tiId": "321", 
-            "trackCode": "", 
-            "x": 2110.0, 
-            "xf": 2130.0, 
-            "y": -50.0, 
-            "yf": -30.0
-        }, 
-        "322": {
-            "__type__": "LineItem", 
-            "conflictTiId": null, 
-            "maxSpeed": 33.33, 
-            "name": "322", 
-            "nextTiId": "320", 
-            "placeCode": null, 
-            "previousTiId": "319", 
-            "realLength": 1500.0, 
-            "tiId": "322", 
-            "trackCode": "", 
-            "x": 2040.0, 
-            "xf": 2100.0, 
-            "y": -55.0, 
-            "yf": -55.0
-        }, 
-        "323": {
-            "__type__": "EndItem", 
-            "conflictTiId": null, 
-            "maxSpeed": 0.0, 
-            "name": "323", 
-            "nextTiId": null, 
-            "previousTiId": "321", 
-            "tiId": "323", 
-            "x": 2130.0, 
-            "y": -30.0
         }, 
         "324": {
             "__type__": "Place", 
@@ -6886,15 +6814,15 @@
         "325": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 33.33, 
             "name": "325", 
             "nextTiId": "327", 
             "placeCode": null, 
-            "previousTiId": "320", 
-            "realLength": 1000.0, 
+            "previousTiId": "319", 
+            "realLength": 2067.0, 
             "tiId": "325", 
             "trackCode": "", 
-            "x": 2110.0, 
+            "x": 2040.0, 
             "xf": 2160.0, 
             "y": -55.0, 
             "yf": -55.0
@@ -6903,20 +6831,16 @@
             "__type__": "SignalItem", 
             "conflictTiId": null, 
             "customProperties": {
-                "ROUTES_SET": {
-                    "FR_M": []
-                }, 
+                "ROUTES_SET": {}, 
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
-                "TRAIN_PRESENT_ON_ITEMS": {
-                    "FR_M": []
-                }
+                "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 0.0, 
-            "name": "326", 
+            "maxSpeed": 33.33, 
+            "name": "46,5", 
             "nextTiId": "328", 
             "previousTiId": "254", 
             "reverse": true, 
-            "signalType": "FR_BAL_CARRE", 
+            "signalType": "FR_BAL_SEMAPHORE_AUTO", 
             "tiId": "326", 
             "x": 2210.0, 
             "xn": 2220.0, 
@@ -6934,8 +6858,8 @@
                 }, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 0.0, 
-            "name": "327", 
+            "maxSpeed": 33.33, 
+            "name": "45,7", 
             "nextTiId": "328", 
             "previousTiId": "325", 
             "reverse": false, 
@@ -6954,7 +6878,7 @@
             "nextTiId": "326", 
             "placeCode": null, 
             "previousTiId": "327", 
-            "realLength": 350.0, 
+            "realLength": 770.0, 
             "tiId": "328", 
             "trackCode": "", 
             "x": 2170.0, 
@@ -7005,6 +6929,18 @@
             "x": 1635.0, 
             "y": -75.0
         }, 
+        "331": {
+            "__type__": "Place", 
+            "conflictTiId": null, 
+            "maxSpeed": 0.0, 
+            "name": "FAISCEAU SALONIQUE", 
+            "nextTiId": null, 
+            "placeCode": null, 
+            "previousTiId": null, 
+            "tiId": "331", 
+            "x": -395.0, 
+            "y": 35.0
+        }, 
         "34": {
             "__type__": "PlatformItem", 
             "conflictTiId": null, 
@@ -7023,7 +6959,7 @@
         "35": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "3607a", 
             "nextTiId": "43", 
             "previousTiId": "38", 
@@ -7062,7 +6998,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "3619", 
             "nextTiId": "38", 
             "previousTiId": "46", 
@@ -7426,7 +7362,7 @@
         "6": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "3608a", 
             "nextTiId": "16", 
             "previousTiId": "7", 
@@ -7580,7 +7516,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 25.0, 
             "name": "39,1 V1", 
             "nextTiId": "70", 
             "previousTiId": "65", 
@@ -7600,7 +7536,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 25.0, 
             "name": "39,1 V2", 
             "nextTiId": "257", 
             "previousTiId": "63", 
@@ -7702,7 +7638,7 @@
                     "FR_M": []
                 }
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 25.0, 
             "name": "503", 
             "nextTiId": "77", 
             "previousTiId": "258", 
@@ -7734,7 +7670,7 @@
                     "FR_M": []
                 }
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 25.0, 
             "name": "501", 
             "nextTiId": "75", 
             "previousTiId": "70", 
@@ -7749,7 +7685,7 @@
         "74": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 25.0, 
             "name": "501a", 
             "nextTiId": "82", 
             "previousTiId": "75", 
@@ -7783,7 +7719,7 @@
         "76": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 25.0, 
             "name": "501b", 
             "nextTiId": "77", 
             "previousTiId": "78", 
@@ -7833,7 +7769,7 @@
         "79": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 25.0, 
             "name": "503a", 
             "nextTiId": "84", 
             "previousTiId": "78", 
@@ -7856,7 +7792,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 8.33, 
             "name": "3621", 
             "nextTiId": "7", 
             "previousTiId": "9", 
@@ -7887,7 +7823,7 @@
         "81": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 25.0, 
             "name": "503b", 
             "nextTiId": "82", 
             "previousTiId": "97", 
@@ -7905,7 +7841,7 @@
         "82": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 19.44, 
+            "maxSpeed": 25.0, 
             "name": "82", 
             "nextTiId": "81", 
             "placeCode": null, 
@@ -7921,7 +7857,7 @@
         "83": {
             "__type__": "PointsItem", 
             "conflictTiId": null, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 25.0, 
             "name": "505", 
             "nextTiId": "85", 
             "previousTiId": "84", 
@@ -8047,7 +7983,7 @@
         "9": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 0.0, 
+            "maxSpeed": 8.33, 
             "name": "9", 
             "nextTiId": "8", 
             "placeCode": "GRETZ", 
@@ -8063,7 +7999,7 @@
         "90": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 19.44, 
+            "maxSpeed": 25.0, 
             "name": "90", 
             "nextTiId": "91", 
             "placeCode": "TOUR", 
@@ -8098,7 +8034,7 @@
                     ]
                 }
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 16.67, 
             "name": "513", 
             "nextTiId": "106", 
             "previousTiId": "90", 
@@ -8197,7 +8133,7 @@
         "97": {
             "__type__": "LineItem", 
             "conflictTiId": null, 
-            "maxSpeed": 19.44, 
+            "maxSpeed": 25.0, 
             "name": "97", 
             "nextTiId": "99", 
             "placeCode": null, 
@@ -8267,7 +8203,36 @@
             "length": 72.8, 
             "maxSpeed": 44.44, 
             "stdAccel": 0.5, 
-            "stdBraking": 0.5
+            "stdBraking": 0.9
+        }, 
+        "B82500-UM2": {
+            "__type__": "TrainType", 
+            "code": "B82500-UM2", 
+            "description": "BGC en UM2", 
+            "elements": [
+                "B82500", 
+                "B82500"
+            ], 
+            "emergBraking": 1.5, 
+            "length": 145.6, 
+            "maxSpeed": 44.44, 
+            "stdAccel": 0.5, 
+            "stdBraking": 0.9
+        }, 
+        "B82500-UM3": {
+            "__type__": "TrainType", 
+            "code": "B82500-UM3", 
+            "description": "BGC en UM3", 
+            "elements": [
+                "B82500", 
+                "B82500", 
+                "B82500"
+            ], 
+            "emergBraking": 1.5, 
+            "length": 218.4, 
+            "maxSpeed": 44.44, 
+            "stdAccel": 0.5, 
+            "stdBraking": 0.9
         }, 
         "CC72100Corail": {
             "__type__": "TrainType", 
@@ -8278,7 +8243,7 @@
             "length": 152.19, 
             "maxSpeed": 44.44, 
             "stdAccel": 0.5, 
-            "stdBraking": 0.5
+            "stdBraking": 0.9
         }, 
         "Z22500": {
             "__type__": "TrainType", 
@@ -8289,18 +8254,21 @@
             "length": 112.5, 
             "maxSpeed": 38.89, 
             "stdAccel": 0.5, 
-            "stdBraking": 0.5
+            "stdBraking": 0.9
         }, 
         "Z22500-UM": {
             "__type__": "TrainType", 
             "code": "Z22500-UM", 
             "description": "MI2N en UM", 
-            "elements": [], 
+            "elements": [
+                "Z22500", 
+                "Z22500"
+            ], 
             "emergBraking": 1.5, 
             "length": 225.0, 
             "maxSpeed": 38.89, 
             "stdAccel": 0.5, 
-            "stdBraking": 0.5
+            "stdBraking": 0.9
         }, 
         "Z50000": {
             "__type__": "TrainType", 
@@ -8311,18 +8279,21 @@
             "length": 112.5, 
             "maxSpeed": 38.89, 
             "stdAccel": 0.5, 
-            "stdBraking": 0.5
+            "stdBraking": 0.9
         }, 
         "Z50000-UM": {
             "__type__": "TrainType", 
             "code": "Z50000-UM", 
             "description": "NAT en UM", 
-            "elements": [], 
+            "elements": [
+                "Z50000", 
+                "Z50000"
+            ], 
             "emergBraking": 1.5, 
             "length": 225.0, 
             "maxSpeed": 38.89, 
             "stdAccel": 0.5, 
-            "stdBraking": 0.5
+            "stdBraking": 0.9
         }
     }, 
     "trains": [
