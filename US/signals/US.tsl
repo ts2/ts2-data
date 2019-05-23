@@ -1,0 +1,455 @@
+{
+    "__type__": "SignalLibrary",
+    "signalAspects": {
+        "BUFFER": {
+            "__type__": "SignalAspect",
+            "lineStyle": 1,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    1,
+                    0
+                ]
+            ]
+        },
+        "US_STOP": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#FF0000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    1,
+                    0
+                ]
+            ]
+        },
+        "US_RESTRICTING": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#FF0000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                true,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    1,
+                    6.7
+                ]
+            ]
+        },
+        "US_APPROACH": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#FFFF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    2,
+                    0
+                ]
+            ]
+        },
+        "US_DIVERGING_APPROACH": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#FFFF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                true,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    2,
+                    0
+                ]
+            ]
+        },
+        "US_CLEAR": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#00FF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    0,
+                    999
+                ]
+            ]
+        },
+        "US_DIVERGING_CLEAR": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#00FF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                true,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    0,
+                    999
+                ]
+            ]
+        }
+    },
+    "signalTypes": {
+        "BUFFER": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "BUFFER",
+                    "conditions": {}
+                }
+            ]
+        },
+        "US_INTERLOCK": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "US_DIVERGING_CLEAR",
+                    "conditions": {
+                        "ROUTES_SET": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "US_CLEAR",
+                            "US_DIVERGING_CLEAR",
+                            "US_APPROACH",
+                            "US_DIVERGING_APPROACH"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "US_CLEAR",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "US_CLEAR",
+                            "US_DIVERGING_CLEAR",
+                            "US_APPROACH",
+                            "US_DIVERGING_APPROACH"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "US_DIVERGING_APPROACH",
+                    "conditions": {
+                        "ROUTES_SET": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "US_STOP",
+                            "US_RESTRICTING",
+                            "BUFFER"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "US_APPROACH",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "US_STOP",
+                            "US_RESTRICTING",
+                            "BUFFER"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "US_STOP",
+                    "conditions": {}
+                }
+            ]
+        },
+        "US_INTERLOCK_TP": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "US_CLEAR",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "US_APPROACH",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "US_STOP",
+                    "conditions": {}
+                }
+            ]
+        }
+    }
+}
