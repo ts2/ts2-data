@@ -1479,61 +1479,21 @@
                 }
             ]
         },
-        "FR_BAL_S_A_R_RCLI_VL_TP": {
+        "FR_BAL_S_A_VL_TP": {
             "__type__": "SignalType",
             "states": [
                 {
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_VL",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_ITEMS": [],
-                        "NEXT_SIGNAL_ASPECTS": [
-                            "FR_BAL_VL",
-                            "FR_BAL_A",
-                            "FR_BAL_R",
-                            "FR_BAL_ACLI",
-                            "FR_BAL_RCLI",
-                            "FR_BAL_RCLI_ACLI"
-                        ]
-                    }
-                },
-                {
-                    "__type__": "SignalState",
-                    "aspectName": "FR_BAL_RCLI",
-                    "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_ITEMS": [],
-                        "NEXT_SIGNAL_ASPECTS": [
-                            "FR_BAL_RRCLI",
-                            "FR_BAL_RRCLI_A",
-                            "FR_BAL_RRCLI_ACLI"
-                        ]
-                    }
-                },
-                {
-                    "__type__": "SignalState",
-                    "aspectName": "FR_BAL_R",
-                    "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_ITEMS": [],
-                        "NEXT_SIGNAL_ASPECTS": [
-                            "FR_BAL_RR",
-                            "FR_BAL_RR_A",
-                            "FR_BAL_RR_ACLI"
-                        ]
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
                     }
                 },
                 {
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_A",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_ITEMS": [],
-                        "NEXT_SIGNAL_ASPECTS": [
-                            "FR_BAL_C",
-                            "FR_BAL_S",
-                            "FR_BAL_SCLI",
-                            "FR_BAL_MCLI",
-                            "FR_BAL_M",
-                            "BUFFER"
-                        ]
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
                     }
                 },
                 {

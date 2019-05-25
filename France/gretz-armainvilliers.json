@@ -510,6 +510,40 @@
             "id": "18", 
             "initialState": 0
         }, 
+        "180": {
+            "__type__": "Route", 
+            "beginSignal": "333", 
+            "directions": {
+                "110": 0
+            }, 
+            "endSignal": "99", 
+            "id": "180", 
+            "initialState": 0
+        }, 
+        "181": {
+            "__type__": "Route", 
+            "beginSignal": "333", 
+            "directions": {
+                "105": 0, 
+                "108": 1, 
+                "110": 1
+            }, 
+            "endSignal": "86", 
+            "id": "181", 
+            "initialState": 0
+        }, 
+        "182": {
+            "__type__": "Route", 
+            "beginSignal": "333", 
+            "directions": {
+                "105": 1, 
+                "108": 1, 
+                "110": 1
+            }, 
+            "endSignal": "94", 
+            "id": "182", 
+            "initialState": 0
+        }, 
         "20": {
             "__type__": "Route", 
             "beginSignal": "195", 
@@ -3925,45 +3959,13 @@
                     }
                 ]
             }, 
-            "FR_BAL_S_A_R_RCLI_VL_TP": {
+            "FR_BAL_S_A_VL_TP": {
                 "__type__": "SignalType", 
                 "states": [
                     {
                         "__type__": "SignalState", 
                         "aspectName": "FR_BAL_VL", 
                         "conditions": {
-                            "NEXT_SIGNAL_ASPECTS": [
-                                "FR_BAL_VL", 
-                                "FR_BAL_A", 
-                                "FR_BAL_R", 
-                                "FR_BAL_ACLI", 
-                                "FR_BAL_RCLI", 
-                                "FR_BAL_RCLI_ACLI"
-                            ], 
-                            "TRAIN_NOT_PRESENT_ON_ITEMS": []
-                        }
-                    }, 
-                    {
-                        "__type__": "SignalState", 
-                        "aspectName": "FR_BAL_RCLI", 
-                        "conditions": {
-                            "NEXT_SIGNAL_ASPECTS": [
-                                "FR_BAL_RRCLI", 
-                                "FR_BAL_RRCLI_A", 
-                                "FR_BAL_RRCLI_ACLI"
-                            ], 
-                            "TRAIN_NOT_PRESENT_ON_ITEMS": []
-                        }
-                    }, 
-                    {
-                        "__type__": "SignalState", 
-                        "aspectName": "FR_BAL_R", 
-                        "conditions": {
-                            "NEXT_SIGNAL_ASPECTS": [
-                                "FR_BAL_RR", 
-                                "FR_BAL_RR_A", 
-                                "FR_BAL_RR_ACLI"
-                            ], 
                             "TRAIN_NOT_PRESENT_ON_ITEMS": []
                         }
                     }, 
@@ -3971,14 +3973,6 @@
                         "__type__": "SignalState", 
                         "aspectName": "FR_BAL_A", 
                         "conditions": {
-                            "NEXT_SIGNAL_ASPECTS": [
-                                "FR_BAL_C", 
-                                "FR_BAL_S", 
-                                "FR_BAL_SCLI", 
-                                "FR_BAL_MCLI", 
-                                "FR_BAL_M", 
-                                "BUFFER"
-                            ], 
                             "TRAIN_NOT_PRESENT_ON_ITEMS": []
                         }
                     }, 
@@ -6207,8 +6201,6 @@
                     "FR_BAL_A": [
                         "227"
                     ], 
-                    "FR_BAL_R": [], 
-                    "FR_BAL_RCLI": [], 
                     "FR_BAL_VL": [
                         "227"
                     ]
@@ -6220,7 +6212,7 @@
             "nextTiId": "227", 
             "previousTiId": "59", 
             "reverse": false, 
-            "signalType": "FR_BAL_S_A_R_RCLI_VL_TP", 
+            "signalType": "FR_BAL_S_A_VL_TP", 
             "tiId": "226", 
             "x": 715.0, 
             "xn": 670.0, 
@@ -7105,8 +7097,6 @@
                     "FR_BAL_A": [
                         "273"
                     ], 
-                    "FR_BAL_R": [], 
-                    "FR_BAL_RCLI": [], 
                     "FR_BAL_VL": [
                         "273"
                     ]
@@ -7118,7 +7108,7 @@
             "nextTiId": "273", 
             "previousTiId": "270", 
             "reverse": true, 
-            "signalType": "FR_BAL_S_A_R_RCLI_VL_TP", 
+            "signalType": "FR_BAL_S_A_VL_TP", 
             "tiId": "272", 
             "x": -1120.0, 
             "xn": -1110.0, 
@@ -8003,8 +7993,6 @@
                         "328", 
                         "254"
                     ], 
-                    "FR_BAL_R": [], 
-                    "FR_BAL_RCLI": [], 
                     "FR_BAL_VL": [
                         "328", 
                         "254"
@@ -8017,7 +8005,7 @@
             "nextTiId": "328", 
             "previousTiId": "325", 
             "reverse": false, 
-            "signalType": "FR_BAL_S_A_R_RCLI_VL_TP", 
+            "signalType": "FR_BAL_S_A_VL_TP", 
             "tiId": "327", 
             "x": 2160.0, 
             "xn": 2120.0, 
