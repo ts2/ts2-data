@@ -63945,6 +63945,14 @@
                         0
                     ]
                 ], 
+                "blink": [
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    false
+                ], 
                 "lineStyle": 1, 
                 "outerColors": [
                     "#000000", 
@@ -63986,6 +63994,14 @@
                         2, 
                         0
                     ]
+                ], 
+                "blink": [
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    false
                 ], 
                 "lineStyle": 0, 
                 "outerColors": [
@@ -64029,6 +64045,14 @@
                         999
                     ]
                 ], 
+                "blink": [
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    false
+                ], 
                 "lineStyle": 0, 
                 "outerColors": [
                     "#000000", 
@@ -64071,6 +64095,14 @@
                         0
                     ]
                 ], 
+                "blink": [
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    false
+                ], 
                 "lineStyle": 0, 
                 "outerColors": [
                     "#000000", 
@@ -64112,6 +64144,14 @@
                         0, 
                         25
                     ]
+                ], 
+                "blink": [
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    false
                 ], 
                 "lineStyle": 0, 
                 "outerColors": [
@@ -74495,13 +74535,13 @@
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "04:00:00",
+            "appearTime": "04:00:00", 
             "initialDelay": 0, 
             "initialSpeed": 0.0, 
             "nextPlaceIndex": null, 
             "serviceCode": "1B04", 
             "speed": 0.0, 
-            "status": 0,
+            "status": 0, 
             "stoppedTime": 15, 
             "trainHead": {
                 "__type__": "Position", 
@@ -74609,13 +74649,13 @@
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "04:00:00",
+            "appearTime": "04:00:00", 
             "initialDelay": 0, 
             "initialSpeed": 0.0, 
             "nextPlaceIndex": null, 
             "serviceCode": "1B06", 
             "speed": 0.0, 
-            "status": 0,
+            "status": 0, 
             "stoppedTime": 15, 
             "trainHead": {
                 "__type__": "Position", 
@@ -74913,13 +74953,13 @@
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "04:00:00",
+            "appearTime": "04:00:00", 
             "initialDelay": 0, 
             "initialSpeed": 0.0, 
             "nextPlaceIndex": null, 
             "serviceCode": "1P02", 
             "speed": 0.0, 
-            "status": 0,
+            "status": 0, 
             "stoppedTime": 15, 
             "trainHead": {
                 "__type__": "Position", 

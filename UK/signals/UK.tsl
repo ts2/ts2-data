@@ -8,6 +8,7 @@
             "outerColors": ["#000000", "#000000", "#000000", "#000000", "#000000", "#000000"],
             "shapes": [1, 0, 1, 0, 0, 0],
             "shapesColors": ["#FFFF00", "#000000", "#FFFF00", "#000000", "#000000", "#000000"],
+            "blink": [false, false, false, false, false, false],
             "actions": [[0, 25]]
         }
     },
