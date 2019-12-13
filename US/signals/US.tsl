@@ -371,7 +371,7 @@
                     "aspectName": "US_DIVERGING_CLEAR",
                     "conditions": {
                         "ROUTES_SET": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "US_CLEAR",
                             "US_DIVERGING_CLEAR",
@@ -385,7 +385,21 @@
                     "aspectName": "US_CLEAR",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "US_CLEAR",
+                            "US_DIVERGING_CLEAR",
+                            "US_APPROACH",
+                            "US_DIVERGING_APPROACH"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "US_CLEAR",
+                    "conditions": {
+                        "ROUTE_SET_ACROSS": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "US_CLEAR",
                             "US_DIVERGING_CLEAR",
@@ -399,7 +413,7 @@
                     "aspectName": "US_DIVERGING_APPROACH",
                     "conditions": {
                         "ROUTES_SET": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "US_STOP",
                             "US_RESTRICTING",
@@ -412,7 +426,20 @@
                     "aspectName": "US_APPROACH",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "US_STOP",
+                            "US_RESTRICTING",
+                            "BUFFER"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "US_APPROACH",
+                    "conditions": {
+                        "ROUTE_SET_ACROSS": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "US_STOP",
                             "US_RESTRICTING",
