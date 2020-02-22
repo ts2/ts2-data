@@ -3778,6 +3778,336 @@
             ], 
             "serviceCode": "118448"
         }, 
+        "839400": {
+            "__type__": "Service", 
+            "description": "TER GE : Troyes - Paris Est", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "VERN", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }
+            ], 
+            "plannedTrainType": "B85000", 
+            "postActions": [], 
+            "serviceCode": "839400"
+        }, 
+        "839401": {
+            "__type__": "Service", 
+            "description": "TER GE : Paris Est - Troyes", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "VERN", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }
+            ], 
+            "plannedTrainType": "B85000", 
+            "postActions": [], 
+            "serviceCode": "839401"
+        }, 
+        "839402": {
+            "__type__": "Service", 
+            "description": "TER GE : Troyes - Paris Est", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "VERN", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }
+            ], 
+            "plannedTrainType": "B85000", 
+            "postActions": [], 
+            "serviceCode": "839402"
+        }, 
+        "839404": {
+            "__type__": "Service", 
+            "description": "TER GE : Troyes - Paris Est", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "VERN", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }
+            ], 
+            "plannedTrainType": "B85000-UM", 
+            "postActions": [], 
+            "serviceCode": "839404"
+        }, 
+        "839406": {
+            "__type__": "Service", 
+            "description": "TER GE : Troyes - Paris Est", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "VERN", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }
+            ], 
+            "plannedTrainType": "B85000-UM", 
+            "postActions": [], 
+            "serviceCode": "839406"
+        }, 
+        "839500": {
+            "__type__": "Service", 
+            "description": "TER GE : Culmont-Chalindrey - Paris Est", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "VERN", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }
+            ], 
+            "plannedTrainType": "B85000-UM", 
+            "postActions": [], 
+            "serviceCode": "839500"
+        }, 
+        "839550": {
+            "__type__": "Service", 
+            "description": "TER GE : Mulhouse - Paris Est", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "VERN", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "2"
+                }
+            ], 
+            "plannedTrainType": "B85000-UM", 
+            "postActions": [], 
+            "serviceCode": "839550"
+        }, 
+        "839551": {
+            "__type__": "Service", 
+            "description": "TER GE : Paris Est - Mulhouse", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "VERN", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }
+            ], 
+            "plannedTrainType": "B85000-UM", 
+            "postActions": [], 
+            "serviceCode": "839551"
+        }, 
+        "839553": {
+            "__type__": "Service", 
+            "description": "TER GE : Paris Est - Belfort", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "VERN", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }
+            ], 
+            "plannedTrainType": "B85000-UM", 
+            "postActions": [], 
+            "serviceCode": "839553"
+        }, 
+        "839561": {
+            "__type__": "Service", 
+            "description": "TER GE : Paris Est - Culmont-Chalindrey", 
+            "lines": [
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "EMER", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "GRETZ", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }, 
+                {
+                    "__type__": "ServiceLine", 
+                    "mustStop": false, 
+                    "placeCode": "VERN", 
+                    "scheduledArrivalTime": "", 
+                    "scheduledDepartureTime": "", 
+                    "trackCode": "1"
+                }
+            ], 
+            "plannedTrainType": "B85000-UM", 
+            "postActions": [], 
+            "serviceCode": "839561"
+        }, 
         "W117320a": {
             "__type__": "Service", 
             "description": "Transilien P VIDE : Garage Coulommiers - Coulommiers Sas", 
@@ -15627,6 +15957,31 @@
             "stdAccel": 0.5, 
             "stdBraking": 0.9
         }, 
+        "B85000": {
+            "__type__": "TrainType", 
+            "code": "B85000", 
+            "description": "Coradia Liner", 
+            "elements": [], 
+            "emergBraking": 1.5, 
+            "length": 110.0, 
+            "maxSpeed": 44.44, 
+            "stdAccel": 0.5, 
+            "stdBraking": 0.9
+        }, 
+        "B85000-UM": {
+            "__type__": "TrainType", 
+            "code": "B85000-UM", 
+            "description": "Coradia Liner en UM", 
+            "elements": [
+                "B85000", 
+                "B85000"
+            ], 
+            "emergBraking": 1.5, 
+            "length": 220.0, 
+            "maxSpeed": 44.44, 
+            "stdAccel": 0.5, 
+            "stdBraking": 0.9
+        }, 
         "CC72100Corail": {
             "__type__": "TrainType", 
             "code": "CC72100Corail", 
@@ -16167,6 +16522,196 @@
         }, 
         {
             "__type__": "Train", 
+            "appearTime": "06:15:00", 
+            "initialDelay": 0, 
+            "initialSpeed": 41.67, 
+            "nextPlaceIndex": null, 
+            "serviceCode": "839400", 
+            "speed": 41.67, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": "69", 
+                "trackItem": "356"
+            }, 
+            "trainId": "25", 
+            "trainTypeCode": "B85000"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "08:05:00", 
+            "initialDelay": 0, 
+            "initialSpeed": 38.89, 
+            "nextPlaceIndex": null, 
+            "serviceCode": "839401", 
+            "speed": 38.89, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": "190", 
+                "trackItem": "275"
+            }, 
+            "trainId": "26", 
+            "trainTypeCode": "B85000"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "07:15:00", 
+            "initialDelay": 0, 
+            "initialSpeed": 41.67, 
+            "nextPlaceIndex": null, 
+            "serviceCode": "839402", 
+            "speed": 41.67, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": "69", 
+                "trackItem": "356"
+            }, 
+            "trainId": "27", 
+            "trainTypeCode": "B85000"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "07:45:00", 
+            "initialDelay": 0, 
+            "initialSpeed": 41.67, 
+            "nextPlaceIndex": null, 
+            "serviceCode": "839404", 
+            "speed": 41.67, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": "69", 
+                "trackItem": "356"
+            }, 
+            "trainId": "28", 
+            "trainTypeCode": "B85000-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "08:45:00", 
+            "initialDelay": 0, 
+            "initialSpeed": 41.67, 
+            "nextPlaceIndex": null, 
+            "serviceCode": "839406", 
+            "speed": 41.67, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": "69", 
+                "trackItem": "356"
+            }, 
+            "trainId": "29", 
+            "trainTypeCode": "B85000-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "08:15:00", 
+            "initialDelay": 0, 
+            "initialSpeed": 41.67, 
+            "nextPlaceIndex": null, 
+            "serviceCode": "839500", 
+            "speed": 41.67, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": "69", 
+                "trackItem": "356"
+            }, 
+            "trainId": "30", 
+            "trainTypeCode": "B85000-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "09:15:00", 
+            "initialDelay": 0, 
+            "initialSpeed": 41.67, 
+            "nextPlaceIndex": null, 
+            "serviceCode": "839550", 
+            "speed": 41.67, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": "69", 
+                "trackItem": "356"
+            }, 
+            "trainId": "31", 
+            "trainTypeCode": "B85000-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "07:05:00", 
+            "initialDelay": 0, 
+            "initialSpeed": 38.89, 
+            "nextPlaceIndex": null, 
+            "serviceCode": "839551", 
+            "speed": 38.89, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": "190", 
+                "trackItem": "275"
+            }, 
+            "trainId": "32", 
+            "trainTypeCode": "B85000-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "09:05:00", 
+            "initialDelay": 0, 
+            "initialSpeed": 38.89, 
+            "nextPlaceIndex": null, 
+            "serviceCode": "839553", 
+            "speed": 38.89, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": "190", 
+                "trackItem": "275"
+            }, 
+            "trainId": "33", 
+            "trainTypeCode": "B85000-UM"
+        }, 
+        {
+            "__type__": "Train", 
+            "appearTime": "06:05:00", 
+            "initialDelay": 0, 
+            "initialSpeed": 38.89, 
+            "nextPlaceIndex": null, 
+            "serviceCode": "839561", 
+            "speed": 38.89, 
+            "status": 0, 
+            "stoppedTime": 0, 
+            "trainHead": {
+                "__type__": "Position", 
+                "positionOnTI": 0.0, 
+                "previousTI": "190", 
+                "trackItem": "275"
+            }, 
+            "trainId": "34", 
+            "trainTypeCode": "B85000-UM"
+        }, 
+        {
+            "__type__": "Train", 
             "appearTime": "06:10:00", 
             "initialDelay": 0, 
             "initialSpeed": 38.89, 
@@ -16181,7 +16726,7 @@
                 "previousTI": "190", 
                 "trackItem": "275"
             }, 
-            "trainId": "25", 
+            "trainId": "35", 
             "trainTypeCode": "Z50000-UM"
         }, 
         {
@@ -16200,12 +16745,12 @@
                 "previousTI": "190", 
                 "trackItem": "275"
             }, 
-            "trainId": "26", 
+            "trainId": "36", 
             "trainTypeCode": "Z50000-UM"
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "06:05:00", 
+            "appearTime": "06:07:00", 
             "initialDelay": 0, 
             "initialSpeed": 38.89, 
             "nextPlaceIndex": null, 
@@ -16219,7 +16764,7 @@
                 "previousTI": "190", 
                 "trackItem": "275"
             }, 
-            "trainId": "27", 
+            "trainId": "37", 
             "trainTypeCode": "Z22500-UM"
         }, 
         {
@@ -16238,12 +16783,12 @@
                 "previousTI": "190", 
                 "trackItem": "275"
             }, 
-            "trainId": "28", 
+            "trainId": "38", 
             "trainTypeCode": "Z22500-UM"
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "07:05:00", 
+            "appearTime": "07:07:00", 
             "initialDelay": 0, 
             "initialSpeed": 38.89, 
             "nextPlaceIndex": null, 
@@ -16257,7 +16802,7 @@
                 "previousTI": "190", 
                 "trackItem": "275"
             }, 
-            "trainId": "29", 
+            "trainId": "39", 
             "trainTypeCode": "Z22500-UM"
         }, 
         {
@@ -16276,12 +16821,12 @@
                 "previousTI": "190", 
                 "trackItem": "275"
             }, 
-            "trainId": "30", 
+            "trainId": "40", 
             "trainTypeCode": "Z22500-UM"
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "08:05:00", 
+            "appearTime": "08:07:00", 
             "initialDelay": 0, 
             "initialSpeed": 38.89, 
             "nextPlaceIndex": null, 
@@ -16295,7 +16840,7 @@
                 "previousTI": "190", 
                 "trackItem": "275"
             }, 
-            "trainId": "31", 
+            "trainId": "41", 
             "trainTypeCode": "Z22500-UM"
         }, 
         {
@@ -16314,7 +16859,7 @@
                 "previousTI": "190", 
                 "trackItem": "275"
             }, 
-            "trainId": "32", 
+            "trainId": "42", 
             "trainTypeCode": "Z22500-UM"
         }
     ]
