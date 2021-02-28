@@ -1823,7 +1823,7 @@
                     "placeCode": "COULOMMIERS", 
                     "scheduledArrivalTime": "09:17:00", 
                     "scheduledDepartureTime": "09:17:00", 
-                    "trackCode": "1"
+                    "trackCode": "A"
                 }
             ], 
             "plannedTrainType": "Z50000-UM", 
@@ -3144,7 +3144,7 @@
                 }, 
                 {
                     "__type__": "ServiceLine", 
-                    "mustStop": false, 
+                    "mustStop": true, 
                     "placeCode": "GRETZ", 
                     "scheduledArrivalTime": "08:25:00", 
                     "scheduledDepartureTime": "08:26:00", 
@@ -3152,7 +3152,7 @@
                 }, 
                 {
                     "__type__": "ServiceLine", 
-                    "mustStop": false, 
+                    "mustStop": true, 
                     "placeCode": "TOURNAN", 
                     "scheduledArrivalTime": "08:31:00", 
                     "scheduledDepartureTime": "08:31:00", 
@@ -3370,7 +3370,7 @@
                     "placeCode": "TOURNAN", 
                     "scheduledArrivalTime": "", 
                     "scheduledDepartureTime": "07:53:00", 
-                    "trackCode": "A"
+                    "trackCode": "1"
                 }, 
                 {
                     "__type__": "ServiceLine", 
@@ -4314,7 +4314,7 @@
                     "placeCode": "TOURNAN", 
                     "scheduledArrivalTime": "", 
                     "scheduledDepartureTime": "", 
-                    "trackCode": "1"
+                    "trackCode": "2"
                 }, 
                 {
                     "__type__": "ServiceLine", 
@@ -4380,7 +4380,7 @@
                     "placeCode": "TOURNAN", 
                     "scheduledArrivalTime": "", 
                     "scheduledDepartureTime": "", 
-                    "trackCode": "1"
+                    "trackCode": "2"
                 }, 
                 {
                     "__type__": "ServiceLine", 
@@ -4464,7 +4464,7 @@
                     "placeCode": "TOURNAN", 
                     "scheduledArrivalTime": "05:45:00", 
                     "scheduledDepartureTime": "05:45:00", 
-                    "trackCode": "A"
+                    "trackCode": "2"
                 }
             ], 
             "plannedTrainType": "Z22500-UM", 
@@ -4648,8 +4648,8 @@
                     "__type__": "ServiceLine", 
                     "mustStop": true, 
                     "placeCode": "TOURNAN", 
-                    "scheduledArrivalTime": "07:15:00", 
-                    "scheduledDepartureTime": "07:15:00", 
+                    "scheduledArrivalTime": "07:09:00", 
+                    "scheduledDepartureTime": "07:09:00", 
                     "trackCode": "1"
                 }
             ], 
@@ -4692,7 +4692,7 @@
                     "placeCode": "TOURNAN", 
                     "scheduledArrivalTime": "07:44:00", 
                     "scheduledDepartureTime": "07:44:00", 
-                    "trackCode": "A"
+                    "trackCode": "1"
                 }
             ], 
             "plannedTrainType": "Z22500-UM", 
@@ -4732,8 +4732,8 @@
                     "__type__": "ServiceLine", 
                     "mustStop": true, 
                     "placeCode": "TOURNAN", 
-                    "scheduledArrivalTime": "08:14:00", 
-                    "scheduledDepartureTime": "08:14:00", 
+                    "scheduledArrivalTime": "08:08:00", 
+                    "scheduledDepartureTime": "08:08:00", 
                     "trackCode": "1"
                 }
             ], 
@@ -4774,8 +4774,8 @@
                     "__type__": "ServiceLine", 
                     "mustStop": true, 
                     "placeCode": "TOURNAN", 
-                    "scheduledArrivalTime": "08:44:00", 
-                    "scheduledDepartureTime": "08:44:00", 
+                    "scheduledArrivalTime": "08:41:00", 
+                    "scheduledDepartureTime": "08:41:00", 
                     "trackCode": "2"
                 }
             ], 
@@ -9846,7 +9846,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 38.89, 
+            "maxSpeed": 41.67, 
             "name": "39,9", 
             "nextTiId": "227", 
             "previousTiId": "59", 
@@ -10983,7 +10983,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 8.33, 
+            "maxSpeed": 38.89, 
             "name": "3624", 
             "nextTiId": "28", 
             "previousTiId": "30", 
@@ -14929,7 +14929,7 @@
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
-            "maxSpeed": 8.33, 
+            "maxSpeed": 38.89, 
             "name": "3628", 
             "nextTiId": "30", 
             "previousTiId": "256", 
@@ -16788,7 +16788,7 @@
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "07:07:00", 
+            "appearTime": "07:01:00", 
             "initialDelay": 0, 
             "initialSpeed": 38.89, 
             "nextPlaceIndex": null, 
@@ -16807,7 +16807,7 @@
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "07:32:00", 
+            "appearTime": "07:39:00", 
             "initialDelay": 0, 
             "initialSpeed": 38.89, 
             "nextPlaceIndex": null, 
@@ -16826,7 +16826,7 @@
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "08:07:00", 
+            "appearTime": "08:01:00", 
             "initialDelay": 0, 
             "initialSpeed": 38.89, 
             "nextPlaceIndex": null, 
@@ -16845,7 +16845,7 @@
         }, 
         {
             "__type__": "Train", 
-            "appearTime": "08:35:00", 
+            "appearTime": "08:32:00", 
             "initialDelay": 0, 
             "initialSpeed": 38.89, 
             "nextPlaceIndex": null, 
