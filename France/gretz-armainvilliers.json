@@ -6620,7 +6620,7 @@
                     }
                 ]
             }, 
-            "FR_BAL_C_SCLI_BLOCK_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL": {
+            "FR_BAL_C_SCLI_BLOCK_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL_STATION_ENTRY": {
                 "__type__": "SignalType", 
                 "states": [
                     {
@@ -6653,7 +6653,7 @@
                                 "FR_BAL_M_DISCARD!"
                             ], 
                             "ROUTES_SET": [], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6678,7 +6678,7 @@
                                 "FR_BAL_M_DISCARD!"
                             ], 
                             "ROUTES_SET": [], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6687,7 +6687,7 @@
                         "conditions": {
                             "NEXT_ROUTE_ACTIVE": [], 
                             "ROUTES_SET": [], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6702,7 +6702,7 @@
                                 "FR_BAL_M_DISCARD!"
                             ], 
                             "ROUTES_SET": [], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6727,7 +6727,7 @@
                                 "FR_BAL_M_DISCARD!"
                             ], 
                             "ROUTES_SET": [], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6736,7 +6736,7 @@
                         "conditions": {
                             "NEXT_ROUTE_ACTIVE": [], 
                             "ROUTES_SET": [], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6749,7 +6749,7 @@
                                 "FR_BAL_M_DISCARD!"
                             ], 
                             "ROUTES_SET": [], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6763,7 +6763,7 @@
                                 "FR_BAL_RRCLI_ACLI", 
                                 "FR_BAL_M_DISCARD!"
                             ], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6777,7 +6777,7 @@
                                 "FR_BAL_RR_ACLI", 
                                 "FR_BAL_M_DISCARD!"
                             ], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6791,7 +6791,7 @@
                                 "FR_BAL_M_DISCARD!"
                             ], 
                             "ROUTES_SET": [], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6808,7 +6808,7 @@
                                 "FR_BAL_RCLI_ACLI", 
                                 "FR_BAL_M_DISCARD!"
                             ], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -6826,7 +6826,7 @@
                                 "BUFFER", 
                                 "FR_BAL_M_DISCARD!"
                             ], 
-                            "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -7177,6 +7177,230 @@
                                 "FR_BAL_M_DISCARD!"
                             ], 
                             "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_S", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_C", 
+                        "conditions": {}
+                    }
+                ]
+            }, 
+            "FR_BAL_C_S_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL_STATION_ENTRY": {
+                "__type__": "SignalType", 
+                "states": [
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_M", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "ROUTES_SET": [], 
+                            "TRAIN_PRESENT_ON_ITEMS": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_MCLI", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "ROUTES_SET": [], 
+                            "TRAIN_PRESENT_ON_ITEMS": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_RRCLI_ACLI", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "NEXT_SIGNAL_ASPECTS": [
+                                "FR_BAL_A", 
+                                "FR_BAL_RR_A", 
+                                "FR_BAL_RRCLI_A", 
+                                "FR_BAL_M_DISCARD!"
+                            ], 
+                            "ROUTES_SET": [], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_RRCLI_A", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "NEXT_SIGNAL_ASPECTS": [
+                                "FR_BAL_RR", 
+                                "FR_BAL_RR_A", 
+                                "FR_BAL_RR_ACLI", 
+                                "FR_BAL_RRCLI", 
+                                "FR_BAL_RRCLI_A", 
+                                "FR_BAL_RRCLI_ACLI", 
+                                "FR_BAL_C", 
+                                "FR_BAL_S", 
+                                "FR_BAL_SCLI", 
+                                "FR_BAL_MCLI", 
+                                "FR_BAL_M", 
+                                "FR_BAL_CV", 
+                                "BUFFER", 
+                                "FR_BAL_M_DISCARD!"
+                            ], 
+                            "ROUTES_SET": [], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_RRCLI", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "ROUTES_SET": [], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_RR_ACLI", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "NEXT_SIGNAL_ASPECTS": [
+                                "FR_BAL_A", 
+                                "FR_BAL_RR_A", 
+                                "FR_BAL_RRCLI_A", 
+                                "FR_BAL_M_DISCARD!"
+                            ], 
+                            "ROUTES_SET": [], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_RR_A", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "NEXT_SIGNAL_ASPECTS": [
+                                "FR_BAL_RR", 
+                                "FR_BAL_RR_A", 
+                                "FR_BAL_RR_ACLI", 
+                                "FR_BAL_RRCLI", 
+                                "FR_BAL_RRCLI_A", 
+                                "FR_BAL_RRCLI_ACLI", 
+                                "FR_BAL_C", 
+                                "FR_BAL_S", 
+                                "FR_BAL_SCLI", 
+                                "FR_BAL_MCLI", 
+                                "FR_BAL_M", 
+                                "FR_BAL_CV", 
+                                "BUFFER", 
+                                "FR_BAL_M_DISCARD!"
+                            ], 
+                            "ROUTES_SET": [], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_RR", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "ROUTES_SET": [], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_RCLI_ACLI", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "NEXT_SIGNAL_ASPECTS": [
+                                "FR_BAL_RRCLI_A", 
+                                "FR_BAL_M_DISCARD!"
+                            ], 
+                            "ROUTES_SET": [], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_RCLI", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "NEXT_SIGNAL_ASPECTS": [
+                                "FR_BAL_RRCLI", 
+                                "FR_BAL_RRCLI_A", 
+                                "FR_BAL_RRCLI_ACLI", 
+                                "FR_BAL_M_DISCARD!"
+                            ], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_R", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "NEXT_SIGNAL_ASPECTS": [
+                                "FR_BAL_RR", 
+                                "FR_BAL_RR_A", 
+                                "FR_BAL_RR_ACLI", 
+                                "FR_BAL_M_DISCARD!"
+                            ], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_ACLI", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "NEXT_SIGNAL_ASPECTS": [
+                                "FR_BAL_A", 
+                                "FR_BAL_R", 
+                                "FR_BAL_M_DISCARD!"
+                            ], 
+                            "ROUTES_SET": [], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_VL", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "NEXT_SIGNAL_ASPECTS": [
+                                "FR_BAL_VL", 
+                                "FR_BAL_A", 
+                                "FR_BAL_R", 
+                                "FR_BAL_ACLI", 
+                                "FR_BAL_RCLI", 
+                                "FR_BAL_RCLI_ACLI", 
+                                "FR_BAL_M_DISCARD!"
+                            ], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+                        }
+                    }, 
+                    {
+                        "__type__": "SignalState", 
+                        "aspectName": "FR_BAL_A", 
+                        "conditions": {
+                            "NEXT_ROUTE_ACTIVE": [], 
+                            "NEXT_SIGNAL_ASPECTS": [
+                                "FR_BAL_C", 
+                                "FR_BAL_S", 
+                                "FR_BAPR_S", 
+                                "FR_BAL_SCLI", 
+                                "FR_BAL_MCLI", 
+                                "FR_BAL_M", 
+                                "BUFFER", 
+                                "FR_BAL_M_DISCARD!"
+                            ], 
+                            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
                         }
                     }, 
                     {
@@ -7995,7 +8219,7 @@
             "nextTiId": "116", 
             "previousTiId": "118", 
             "reverse": true, 
-            "signalType": "FR_BAL_C_SCLI_BLOCK_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL", 
+            "signalType": "FR_BAL_C_SCLI_BLOCK_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL_STATION_ENTRY", 
             "tiId": "117", 
             "x": 1470.0, 
             "xn": 1480.0, 
@@ -8857,7 +9081,11 @@
                     "FR_BAL_MCLI": [], 
                     "FR_BAL_RCLI_ACLI": []
                 }, 
-                "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
+                "TRAIN_NOT_PRESENT_ON_ITEMS": {
+                    "FR_BAL_S": [
+                        "162"
+                    ]
+                }, 
                 "TRAIN_PRESENT_ON_ITEMS": {
                     "FR_BAL_M": [], 
                     "FR_BAL_MCLI": []
@@ -9057,7 +9285,7 @@
             "nextTiId": "169", 
             "previousTiId": "171", 
             "reverse": false, 
-            "signalType": "FR_BAL_C_S_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL", 
+            "signalType": "FR_BAL_C_S_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL_STATION_ENTRY", 
             "tiId": "170", 
             "x": -270.0, 
             "xn": -315.0, 
@@ -10538,7 +10766,7 @@
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
             "maxSpeed": 0.0, 
-            "name": "33,4 P", 
+            "name": "33,4P", 
             "nextTiId": "262", 
             "previousTiId": "250", 
             "reverse": true, 
@@ -10574,7 +10802,7 @@
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
             "maxSpeed": 38.89, 
-            "name": "33,4 I", 
+            "name": "33,4I", 
             "nextTiId": "262", 
             "previousTiId": "264", 
             "reverse": false, 
@@ -10626,7 +10854,7 @@
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
             "maxSpeed": 38.89, 
-            "name": "32,8 P", 
+            "name": "32,8P", 
             "nextTiId": "267", 
             "previousTiId": "265", 
             "reverse": true, 
@@ -10662,7 +10890,7 @@
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
             "maxSpeed": 0.0, 
-            "name": "32,8 I", 
+            "name": "32,8I", 
             "nextTiId": "267", 
             "previousTiId": "274", 
             "reverse": false, 
@@ -11926,10 +12154,7 @@
             "conflictTiId": null, 
             "customProperties": {
                 "ROUTES_SET": {}, 
-                "TRAIN_NOT_PRESENT_ON_ITEMS": {
-                    "FR_BAL_A": [], 
-                    "FR_BAL_VL": []
-                }, 
+                "TRAIN_NOT_PRESENT_ON_ITEMS": {}, 
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
             "maxSpeed": 41.67, 
@@ -11937,7 +12162,7 @@
             "nextTiId": "346", 
             "previousTiId": "341", 
             "reverse": false, 
-            "signalType": "FR_BAL_S_A_VL_TP", 
+            "signalType": "FR_BAL_S_A_R_RCLI_VL", 
             "tiId": "344", 
             "x": 900.0, 
             "xn": 855.0, 
@@ -13967,7 +14192,9 @@
                 }, 
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {
                     "FR_BAL_S": [
-                        "444"
+                        "444", 
+                        "446", 
+                        "448"
                     ]
                 }, 
                 "TRAIN_PRESENT_ON_ITEMS": {
@@ -13980,7 +14207,7 @@
             "nextTiId": "444", 
             "previousTiId": "442", 
             "reverse": false, 
-            "signalType": "FR_BAL_C_S_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL", 
+            "signalType": "FR_BAL_C_S_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL_STATION_ENTRY", 
             "tiId": "443", 
             "x": 4620.0, 
             "xn": 4575.0, 
@@ -14414,7 +14641,11 @@
                 }, 
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {
                     "FR_BAL_S": [
-                        "455"
+                        "455", 
+                        "454", 
+                        "450", 
+                        "448", 
+                        "446"
                     ]
                 }, 
                 "TRAIN_PRESENT_ON_ITEMS": {
@@ -14446,7 +14677,10 @@
                 }, 
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {
                     "FR_BAL_S": [
-                        "453"
+                        "453", 
+                        "450", 
+                        "448", 
+                        "446"
                     ]
                 }, 
                 "TRAIN_PRESENT_ON_ITEMS": {
@@ -14494,7 +14728,11 @@
                 }, 
                 "TRAIN_NOT_PRESENT_ON_ITEMS": {
                     "FR_BAL_S": [
-                        "456"
+                        "456", 
+                        "480", 
+                        "451", 
+                        "448", 
+                        "446"
                     ]
                 }, 
                 "TRAIN_PRESENT_ON_ITEMS": {
@@ -15151,7 +15389,7 @@
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
             "maxSpeed": 25.0, 
-            "name": "39,1 V1", 
+            "name": "39,1V1", 
             "nextTiId": "70", 
             "previousTiId": "65", 
             "reverse": false, 
@@ -15171,7 +15409,7 @@
                 "TRAIN_PRESENT_ON_ITEMS": {}
             }, 
             "maxSpeed": 25.0, 
-            "name": "39,1 V2", 
+            "name": "39,1V2", 
             "nextTiId": "257", 
             "previousTiId": "63", 
             "reverse": false, 
