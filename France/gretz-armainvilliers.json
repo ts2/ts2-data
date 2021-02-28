@@ -16160,11 +16160,11 @@
             "code": "B82500", 
             "description": "BGC", 
             "elements": [], 
-            "emergBraking": 1.5, 
+            "emergBraking": 1.1, 
             "length": 72.8, 
             "maxSpeed": 44.44, 
-            "stdAccel": 0.5, 
-            "stdBraking": 0.9
+            "stdAccel": 0.4, 
+            "stdBraking": 0.6
         }, 
         "B82500-UM2": {
             "__type__": "TrainType", 
@@ -16174,11 +16174,11 @@
                 "B82500", 
                 "B82500"
             ], 
-            "emergBraking": 1.5, 
+            "emergBraking": 1.1, 
             "length": 145.6, 
             "maxSpeed": 44.44, 
-            "stdAccel": 0.5, 
-            "stdBraking": 0.9
+            "stdAccel": 0.4, 
+            "stdBraking": 0.6
         }, 
         "B82500-UM3": {
             "__type__": "TrainType", 
@@ -16189,22 +16189,22 @@
                 "B82500", 
                 "B82500"
             ], 
-            "emergBraking": 1.5, 
+            "emergBraking": 1.1, 
             "length": 218.4, 
             "maxSpeed": 44.44, 
-            "stdAccel": 0.5, 
-            "stdBraking": 0.9
+            "stdAccel": 0.4, 
+            "stdBraking": 0.6
         }, 
         "B85000": {
             "__type__": "TrainType", 
             "code": "B85000", 
             "description": "Coradia Liner", 
             "elements": [], 
-            "emergBraking": 1.5, 
+            "emergBraking": 1.1, 
             "length": 110.0, 
             "maxSpeed": 44.44, 
-            "stdAccel": 0.5, 
-            "stdBraking": 0.9
+            "stdAccel": 0.4, 
+            "stdBraking": 0.6
         }, 
         "B85000-UM": {
             "__type__": "TrainType", 
@@ -16214,22 +16214,22 @@
                 "B85000", 
                 "B85000"
             ], 
-            "emergBraking": 1.5, 
+            "emergBraking": 1.1, 
             "length": 220.0, 
             "maxSpeed": 44.44, 
-            "stdAccel": 0.5, 
-            "stdBraking": 0.9
+            "stdAccel": 0.4, 
+            "stdBraking": 0.6
         }, 
         "CC72100Corail": {
             "__type__": "TrainType", 
             "code": "CC72100Corail", 
             "description": "CC72100 + 5 voitures Corail", 
             "elements": [], 
-            "emergBraking": 1.5, 
+            "emergBraking": 1.1, 
             "length": 152.19, 
             "maxSpeed": 44.44, 
-            "stdAccel": 0.5, 
-            "stdBraking": 0.9
+            "stdAccel": 0.3, 
+            "stdBraking": 0.6
         }, 
         "Z22500": {
             "__type__": "TrainType", 
@@ -16240,7 +16240,7 @@
             "length": 112.5, 
             "maxSpeed": 38.89, 
             "stdAccel": 0.5, 
-            "stdBraking": 0.9
+            "stdBraking": 0.8
         }, 
         "Z22500-UM": {
             "__type__": "TrainType", 
@@ -16254,7 +16254,7 @@
             "length": 225.0, 
             "maxSpeed": 38.89, 
             "stdAccel": 0.5, 
-            "stdBraking": 0.9
+            "stdBraking": 0.8
         }, 
         "Z50000": {
             "__type__": "TrainType", 
@@ -16265,7 +16265,7 @@
             "length": 112.5, 
             "maxSpeed": 38.89, 
             "stdAccel": 0.5, 
-            "stdBraking": 0.9
+            "stdBraking": 0.8
         }, 
         "Z50000-UM": {
             "__type__": "TrainType", 
@@ -16279,7 +16279,7 @@
             "length": 225.0, 
             "maxSpeed": 38.89, 
             "stdAccel": 0.5, 
-            "stdBraking": 0.9
+            "stdBraking": 0.8
         }
     }, 
     "trains": [
