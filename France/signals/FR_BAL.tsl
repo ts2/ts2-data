@@ -106,6 +106,61 @@
                 ]
             ]
         },
+        "FR_BAPR_S": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#FF0000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    1,
+                    0,
+                    900
+                ],
+                [
+                    0,
+                    8.33
+                ]
+            ]
+        },
         "FR_BAL_SCLI": {
             "__type__": "SignalAspect",
             "lineStyle": 0,
@@ -211,6 +266,106 @@
                 ]
             ]
         },
+        "FR_BAPR_A": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#FFFF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    0,
+                    8.33
+                ]
+            ]
+        },
+        "FR_BAL_PMP_A_30": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#FFFF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    1,
+                    8.33
+                ]
+            ]
+        },
         "FR_BAL_ACLI": {
             "__type__": "SignalAspect",
             "lineStyle": 0,
@@ -256,8 +411,58 @@
             ],
             "actions": [
                 [
-                    0,
-                    8.33
+                    2,
+                    19.44
+                ]
+            ]
+        },
+        "FR_BAPR_ACLI": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#FFFF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                true,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    2,
+                    19.44
                 ]
             ]
         },
@@ -361,7 +566,207 @@
                 ]
             ]
         },
+        "FR_BAPR_VL": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#00FF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    0,
+                    999
+                ]
+            ]
+        },
+        "FR_BAPR_VL_ANN": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#00FF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    0,
+                    999
+                ]
+            ]
+        },
+        "FR_BAL_PMP_VL_30": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "shapesColors": [
+                "#00FF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    0,
+                    8.33
+                ]
+            ]
+        },
         "FR_BAL_R": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                31,
+                0,
+                31,
+                0,
+                1,
+                1
+            ],
+            "shapesColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#FFFF00",
+                "#FFFF00"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "actions": [
+                [
+                    2,
+                    8.33
+                ]
+            ]
+        },
+        "FR_BAPR_R": {
             "__type__": "SignalAspect",
             "lineStyle": 0,
             "outerShapes": [
@@ -461,7 +866,107 @@
                 ]
             ]
         },
+        "FR_BAPR_RCLI": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                31,
+                0,
+                31,
+                0,
+                1,
+                1
+            ],
+            "shapesColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#FFFF00",
+                "#FFFF00"
+            ],
+            "blink": [
+                false,
+                false,
+                false,
+                false,
+                true,
+                true
+            ],
+            "actions": [
+                [
+                    2,
+                    16.67
+                ]
+            ]
+        },
         "FR_BAL_RCLI_ACLI": {
+            "__type__": "SignalAspect",
+            "lineStyle": 0,
+            "outerShapes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "outerColors": [
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#000000"
+            ],
+            "shapes": [
+                31,
+                0,
+                31,
+                0,
+                1,
+                1
+            ],
+            "shapesColors": [
+                "#FFFF00",
+                "#000000",
+                "#000000",
+                "#000000",
+                "#FFFF00",
+                "#FFFF00"
+            ],
+            "blink": [
+                true,
+                false,
+                false,
+                false,
+                true,
+                true
+            ],
+            "actions": [
+                [
+                    2,
+                    16.67
+                ]
+            ]
+        },
+        "FR_BAPR_RCLI_ACLI": {
             "__type__": "SignalAspect",
             "lineStyle": 0,
             "outerShapes": [
@@ -1021,6 +1526,124 @@
         }
     },
     "signalTypes": {
+        "FR_BAL_C_MCLI_M_A_R_ACLI_RCLI_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_M",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_MCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_R",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
         "FR_BAL_C_S_MCLI_M_A_R_ACLI_RCLI_VL": {
             "__type__": "SignalType",
             "states": [
@@ -1047,9 +1670,10 @@
                     "aspectName": "FR_BAL_RCLI_ACLI",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
-                            "FR_BAL_RRCLI_A"
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
                         ],
                         "ROUTES_SET": []
                     }
@@ -1059,11 +1683,12 @@
                     "aspectName": "FR_BAL_RCLI",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RRCLI",
                             "FR_BAL_RRCLI_A",
-                            "FR_BAL_RRCLI_ACLI"
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1072,11 +1697,12 @@
                     "aspectName": "FR_BAL_R",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RR",
                             "FR_BAL_RR_A",
-                            "FR_BAL_RR_ACLI"
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1085,10 +1711,11 @@
                     "aspectName": "FR_BAL_ACLI",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_A",
-                            "FR_BAL_R"
+                            "FR_BAL_R",
+                            "FR_BAL_M_DISCARD!"
                         ],
                         "ROUTES_SET": []
                     }
@@ -1098,14 +1725,15 @@
                     "aspectName": "FR_BAL_VL",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_VL",
                             "FR_BAL_A",
                             "FR_BAL_R",
                             "FR_BAL_ACLI",
                             "FR_BAL_RCLI",
-                            "FR_BAL_RCLI_ACLI"
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1114,14 +1742,16 @@
                     "aspectName": "FR_BAL_A",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_C",
                             "FR_BAL_S",
+                            "FR_BAPR_S",
                             "FR_BAL_SCLI",
                             "FR_BAL_MCLI",
                             "FR_BAL_M",
-                            "BUFFER"
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1129,7 +1759,8 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_S",
                     "conditions": {
-                        "NEXT_ROUTE_ACTIVE": []
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
                     }
                 },
                 {
@@ -1139,18 +1770,51 @@
                 }
             ]
         },
-        "FR_BAL_C_A_R_RCLI_VL_AUTO": {
+        "FR_BAL_C_SCLI_BLOCK_MCLI_M_A_R_ACLI_RCLI_VL": {
             "__type__": "SignalType",
             "states": [
                 {
                     "__type__": "SignalState",
+                    "aspectName": "FR_BAL_M",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_MCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
                     "aspectName": "FR_BAL_RCLI",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RRCLI",
                             "FR_BAL_RRCLI_A",
-                            "FR_BAL_RRCLI_ACLI"
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1158,26 +1822,44 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_R",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RR",
                             "FR_BAL_RR_A",
-                            "FR_BAL_RR_ACLI"
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
                     }
                 },
                 {
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_VL",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_VL",
                             "FR_BAL_A",
                             "FR_BAL_R",
                             "FR_BAL_ACLI",
                             "FR_BAL_RCLI",
-                            "FR_BAL_RCLI_ACLI"
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1185,15 +1867,26 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_A",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_C",
                             "FR_BAL_S",
+                            "FR_BAPR_S",
                             "FR_BAL_SCLI",
                             "FR_BAL_MCLI",
                             "FR_BAL_M",
-                            "BUFFER"
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
                         ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_SCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
                     }
                 },
                 {
@@ -1229,11 +1922,236 @@
                     "aspectName": "FR_BAL_RRCLI_ACLI",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RRCLI_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_CV",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RRCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RR_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RR_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_CV",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RR",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_R",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_S",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_C_S_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL_STATION_ENTRY": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_M",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_MCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RRCLI_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
                         "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_A",
                             "FR_BAL_RR_A",
-                            "FR_BAL_RRCLI_A"
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
                         ],
                         "ROUTES_SET": []
                     }
@@ -1257,7 +2175,8 @@
                             "FR_BAL_MCLI",
                             "FR_BAL_M",
                             "FR_BAL_CV",
-                            "BUFFER"
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
                         ],
                         "ROUTES_SET": []
                     }
@@ -1280,7 +2199,8 @@
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_A",
                             "FR_BAL_RR_A",
-                            "FR_BAL_RRCLI_A"
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
                         ],
                         "ROUTES_SET": []
                     }
@@ -1304,7 +2224,8 @@
                             "FR_BAL_MCLI",
                             "FR_BAL_M",
                             "FR_BAL_CV",
-                            "BUFFER"
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
                         ],
                         "ROUTES_SET": []
                     }
@@ -1325,7 +2246,8 @@
                         "NEXT_ROUTE_ACTIVE": [],
                         "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
                         "NEXT_SIGNAL_ASPECTS": [
-                            "FR_BAL_RRCLI_A"
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
                         ],
                         "ROUTES_SET": []
                     }
@@ -1339,7 +2261,8 @@
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RRCLI",
                             "FR_BAL_RRCLI_A",
-                            "FR_BAL_RRCLI_ACLI"
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1352,7 +2275,8 @@
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RR",
                             "FR_BAL_RR_A",
-                            "FR_BAL_RR_ACLI"
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1364,7 +2288,8 @@
                         "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_A",
-                            "FR_BAL_R"
+                            "FR_BAL_R",
+                            "FR_BAL_M_DISCARD!"
                         ],
                         "ROUTES_SET": []
                     }
@@ -1381,7 +2306,8 @@
                             "FR_BAL_R",
                             "FR_BAL_ACLI",
                             "FR_BAL_RCLI",
-                            "FR_BAL_RCLI_ACLI"
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1394,6 +2320,825 @@
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_C",
                             "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_S",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_C_SCLI_BLOCK_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_M",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_MCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RRCLI_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RRCLI_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_CV",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RRCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RR_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RR_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_CV",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RR",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_R",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_SCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_C_SCLI_BLOCK_MCLI_M_RR_RRCLI_A_R_ACLI_RCLI_VL_STATION_ENTRY": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_M",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_MCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RRCLI_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RRCLI_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_CV",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RRCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RR_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RR_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_CV",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RR",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_R",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_ACLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_SCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_C_A_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_C_SCLI_ANN_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_SCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_C_SCLI_ANN_A_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_SCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_C_SCLI_BLOCK_A_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_SCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_C_VL_REPEATER": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_C_A_R_RCLI_VL_AUTO": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_R",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
                             "FR_BAL_SCLI",
                             "FR_BAL_MCLI",
                             "FR_BAL_M",
@@ -1403,9 +3148,77 @@
                 },
                 {
                     "__type__": "SignalState",
-                    "aspectName": "FR_BAL_S",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_C_A_R_RCLI_VLCLI_VL_AUTO": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI",
                     "conditions": {
-                        "NEXT_ROUTE_ACTIVE": []
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_R",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_VLCLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VLCLI",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "BUFFER"
+                        ]
                     }
                 },
                 {
@@ -1422,7 +3235,7 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_VL",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_VL",
                             "FR_BAL_A",
@@ -1437,7 +3250,7 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_RCLI",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RRCLI",
                             "FR_BAL_RRCLI_A",
@@ -1449,7 +3262,7 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_R",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RR",
                             "FR_BAL_RR_A",
@@ -1461,10 +3274,86 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_A",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_C",
                             "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "BUFFER"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_S",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_S_A_R_RCLI_VLCLI_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_VLCLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VLCLI",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_RCLI",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_R",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
                             "FR_BAL_SCLI",
                             "FR_BAL_MCLI",
                             "FR_BAL_M",
@@ -1510,7 +3399,7 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_RCLI_ACLI",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RRCLI_A"
                         ]
@@ -1520,7 +3409,7 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_RCLI",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RRCLI",
                             "FR_BAL_RRCLI_A"
@@ -1531,7 +3420,7 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_R",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RR",
                             "FR_BAL_RR_A",
@@ -1543,7 +3432,7 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_VL",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_VL",
                             "FR_BAL_ACLI",
@@ -1556,7 +3445,7 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_ACLI",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_A",
                             "FR_BAL_R"
@@ -1567,10 +3456,11 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_A",
                     "conditions": {
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_C",
                             "FR_BAL_S",
+                            "FR_BAPR_S",
                             "FR_BAL_SCLI",
                             "FR_BAL_MCLI",
                             "FR_BAL_M",
@@ -1598,7 +3488,7 @@
                 },
                 {
                     "__type__": "SignalState",
-                    "aspectName": "FR_BAL_M",
+                    "aspectName": "FR_BAL_M_DISCARD",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": []
                     }
@@ -1642,7 +3532,7 @@
                 }
             ]
         },
-       "FR_BAL_CV_S_MCLI_M_A_R_ACLI_RCLI_VL": {
+        "FR_BAL_CV_S_MCLI_M_A_R_ACLI_RCLI_VL": {
             "__type__": "SignalType",
             "states": [
                 {
@@ -1668,9 +3558,10 @@
                     "aspectName": "FR_BAL_RCLI_ACLI",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
-                            "FR_BAL_RRCLI_A"
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_M_DISCARD!"
                         ],
                         "ROUTES_SET": []
                     }
@@ -1680,11 +3571,12 @@
                     "aspectName": "FR_BAL_RCLI",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RRCLI",
                             "FR_BAL_RRCLI_A",
-                            "FR_BAL_RRCLI_ACLI"
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1693,11 +3585,12 @@
                     "aspectName": "FR_BAL_R",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_RR",
                             "FR_BAL_RR_A",
-                            "FR_BAL_RR_ACLI"
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1706,10 +3599,11 @@
                     "aspectName": "FR_BAL_ACLI",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_A",
-                            "FR_BAL_R"
+                            "FR_BAL_R",
+                            "FR_BAL_M_DISCARD!"
                         ],
                         "ROUTES_SET": []
                     }
@@ -1719,14 +3613,15 @@
                     "aspectName": "FR_BAL_VL",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_VL",
                             "FR_BAL_A",
                             "FR_BAL_R",
                             "FR_BAL_ACLI",
                             "FR_BAL_RCLI",
-                            "FR_BAL_RCLI_ACLI"
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1735,14 +3630,16 @@
                     "aspectName": "FR_BAL_A",
                     "conditions": {
                         "NEXT_ROUTE_ACTIVE": [],
-                        "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
                         "NEXT_SIGNAL_ASPECTS": [
                             "FR_BAL_C",
                             "FR_BAL_S",
+                            "FR_BAPR_S",
                             "FR_BAL_SCLI",
                             "FR_BAL_MCLI",
                             "FR_BAL_M",
-                            "BUFFER"
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
                         ]
                     }
                 },
@@ -1750,12 +3647,484 @@
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_S",
                     "conditions": {
-                        "NEXT_ROUTE_ACTIVE": []
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
                     }
                 },
                 {
                     "__type__": "SignalState",
                     "aspectName": "FR_BAL_CV",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAPR_C_S_MCLI_M_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_M",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_MCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_PRESENT_ON_ITEMS": [],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [
+                            "FR_BAPR_VL_ANN!",
+                            "FR_BAPR_RCLI_ACLI!",
+                            "FR_BAPR_RCLI!",
+                            "FR_BAPR_ACLI!",
+                            "FR_BAPR_R!",
+                            "FR_BAPR_A!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_S",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAPR_S_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_VL",
+                    "conditions": {
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [
+                            "FR_BAPR_VL_ANN!",
+                            "FR_BAPR_RCLI_ACLI!",
+                            "FR_BAPR_RCLI!",
+                            "FR_BAPR_ACLI!",
+                            "FR_BAPR_R!",
+                            "FR_BAPR_A!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_S",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAPR_A_R_RCLI_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_VL_ANN",
+                    "conditions": {
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAPR_VL",
+                            "FR_BAPR_VL_ANN"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_RCLI",
+                    "conditions": {
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_R",
+                    "conditions": {
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_A",
+                    "conditions": {
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "BUFFER"
+                        ]
+                    }
+                }
+            ]
+        },
+        "FR_BAPR_R_ACLI_RCLI_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_VL_ANN",
+                    "conditions": {
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAPR_VL",
+                            "FR_BAPR_VL_ANN"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_RCLI_ACLI",
+                    "conditions": {
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI_A"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_RCLI",
+                    "conditions": {
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_ACLI",
+                            "FR_BAPR_RCLI",
+                            "FR_BAPR_RCLI_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_ACLI",
+                    "conditions": {
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAPR_A",
+                            "FR_BAPR_R"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_R",
+                    "conditions": {
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAPR_A",
+                    "conditions": {
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "BUFFER"
+                        ]
+                    }
+                }
+            ]
+        },
+        "FR_BAL_PMP_C_A_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_PMP_VL_30",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_PMP_VL_30",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_PMP_C_SCLI_ANN_A_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_PMP_VL_30",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_SCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_A",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_PMP_C_SCLI_BLOCK_A": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_PMP_A_30",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_SCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
+                    "conditions": {}
+                }
+            ]
+        },
+        "FR_BAL_PMP_C_S_SCLI_ANN_VL": {
+            "__type__": "SignalType",
+            "states": [
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_PMP_VL_30",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ],
+                        "ROUTES_SET": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_VL",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_VL",
+                            "FR_BAL_A",
+                            "FR_BAL_R",
+                            "FR_BAL_ACLI",
+                            "FR_BAL_RCLI",
+                            "FR_BAL_RCLI_ACLI",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_SCLI",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_BEFORE_NEXT_SIGNAL": [],
+                        "NEXT_SIGNAL_ASPECTS": [
+                            "FR_BAL_C",
+                            "FR_BAL_S",
+                            "FR_BAPR_S",
+                            "FR_BAL_SCLI",
+                            "FR_BAL_MCLI",
+                            "FR_BAL_M",
+                            "FR_BAL_RR",
+                            "FR_BAL_RR_A",
+                            "FR_BAL_RR_ACLI",
+                            "FR_BAL_RRCLI",
+                            "FR_BAL_RRCLI_A",
+                            "FR_BAL_RRCLI_ACLI",
+                            "BUFFER",
+                            "FR_BAL_M_DISCARD!"
+                        ]
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_S",
+                    "conditions": {
+                        "NEXT_ROUTE_ACTIVE": [],
+                        "TRAIN_NOT_PRESENT_ON_ITEMS": []
+                    }
+                },
+                {
+                    "__type__": "SignalState",
+                    "aspectName": "FR_BAL_C",
                     "conditions": {}
                 }
             ]
